@@ -1,0 +1,251 @@
+:root {
+  --nav-height: 64px;
+  --overlay: rgba(0,0,0,0.45);
+}
+
+html, body { height: 100%; }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #fff;
+  user-select: none; /* disable text selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  caret-color: transparent; /* hide caret */
+}
+
+/* ===== Background Slider ===== */
+.bg-slider {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.bg-slide {
+  position: absolute;
+  inset: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transform: scale(1.05);
+  transition: opacity 1s ease, transform 2s ease;
+}
+
+.bg-slide.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.bg-overlay {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.25), rgba(0,0,0,0.65));
+  z-index: -1;
+}
+
+.carousel-dots {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 20;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.dot:hover { transform: scale(1.3); }
+.dot.active { background: #fff; }
+
+/* ===== Navigation ===== */
+.nav {
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(6px);
+  background: linear-gradient(90deg, rgba(0,0,0,0.25), rgba(0,0,0,0.15));
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  z-index: 40;
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+}
+
+.menu {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.menu a {
+  color: rgba(255,255,255,0.95);
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.menu a:hover { background: rgba(255,255,255,0.06); }
+.cta {
+  background: rgba(255,255,255,0.09);
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  min-height: calc(100vh - var(--nav-height));
+  padding: 56px 28px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h1 {
+  font-size: clamp(28px, 5vw, 54px);
+  margin: 0 0 12px;
+  line-height: 1.02;
+}
+
+p.lead {
+  font-size: clamp(14px, 2.4vw, 20px);
+  margin: 0 0 20px;
+  max-width: 720px;
+  color: rgba(255,255,255,0.92);
+}
+
+.hero .buttons { display: flex; gap: 12px; }
+
+.btn {
+  padding: 10px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+/* ===== Content Sections ===== */
+.content { position: relative; z-index: 10; }
+
+section { padding: 56px 28px; background: transparent; }
+
+/* ===== About Us Card Styling (Updated) ===== */
+#about .card {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-family: "Georgia", serif;
+  color: #222;
+}
+
+#about p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+/* ===== Developer Section ===== */
+.developers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.developer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+}
+
+.developer img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 4px solid black;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.3);
+}
+
+.developer h3 {
+  margin: 0.4rem 0 0.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #000; /* make name darker for readability on light card */
+}
+
+.developer .quote {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.25rem;
+  max-width: 220px;
+}
+
+/* ===== Footer ===== */
+footer {
+  padding: 24px 28px;
+  text-align: center;
+  color: rgba(255,255,255,0.7);
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 720px) {
+  .menu { display: none; }
+  .hero { align-items: center; text-align: center; }
+  .brand { font-size: 16px; }
+}
+
+@media (min-width: 768px) {
+  .developers {
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
+

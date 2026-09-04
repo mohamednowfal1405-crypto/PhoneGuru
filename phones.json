@@ -1,0 +1,3507 @@
+{
+  "brands": [
+    {
+      "brand_id": "B001",
+      "brand_name": "Samsung",
+      "country_of_origin": "South Korea",
+      "logo_url": "/logos/samsung.png",
+      "founded": 1969,
+      "website": "https://www.samsung.com/in"
+    },
+    {
+      "brand_id": "B002",
+      "brand_name": "Apple",
+      "country_of_origin": "USA",
+      "logo_url": "/logos/apple.png",
+      "founded": 1976,
+      "website": "https://www.apple.com/in"
+    },
+    {
+      "brand_id": "B003",
+      "brand_name": "OnePlus",
+      "country_of_origin": "China",
+      "logo_url": "/logos/oneplus.png",
+      "founded": 2013,
+      "website": "https://www.oneplus.in"
+    },
+    {
+      "brand_id": "B004",
+      "brand_name": "Xiaomi",
+      "country_of_origin": "China",
+      "logo_url": "/logos/xiaomi.png",
+      "founded": 2010,
+      "website": "https://www.mi.com/in"
+    },
+    {
+      "brand_id": "B005",
+      "brand_name": "Redmi",
+      "country_of_origin": "China",
+      "logo_url": "/logos/redmi.png",
+      "founded": 2013,
+      "website": "https://www.mi.com/in/redmi"
+    },
+    {
+      "brand_id": "B006",
+      "brand_name": "Realme",
+      "country_of_origin": "China",
+      "logo_url": "/logos/realme.png",
+      "founded": 2018,
+      "website": "https://www.realme.com/in"
+    },
+    {
+      "brand_id": "B007",
+      "brand_name": "Vivo",
+      "country_of_origin": "China",
+      "logo_url": "/logos/vivo.png",
+      "founded": 2009,
+      "website": "https://www.vivo.com/in"
+    },
+    {
+      "brand_id": "B008",
+      "brand_name": "OPPO",
+      "country_of_origin": "China",
+      "logo_url": "/logos/oppo.png",
+      "founded": 2004,
+      "website": "https://www.oppo.com/in"
+    },
+    {
+      "brand_id": "B009",
+      "brand_name": "Motorola",
+      "country_of_origin": "USA",
+      "logo_url": "/logos/motorola.png",
+      "founded": 1928,
+      "website": "https://www.motorola.in"
+    },
+    {
+      "brand_id": "B010",
+      "brand_name": "Nokia",
+      "country_of_origin": "Finland",
+      "logo_url": "/logos/nokia.png",
+      "founded": 1865,
+      "website": "https://www.nokia.com/phones/en_in"
+    },
+    {
+      "brand_id": "B011",
+      "brand_name": "iQOO",
+      "country_of_origin": "China",
+      "logo_url": "/logos/iqoo.png",
+      "founded": 2019,
+      "website": "https://www.iqoo.com/in"
+    },
+    {
+      "brand_id": "B012",
+      "brand_name": "POCO",
+      "country_of_origin": "China",
+      "logo_url": "/logos/poco.png",
+      "founded": 2018,
+      "website": "https://www.poco.net/in"
+    },
+    {
+      "brand_id": "B013",
+      "brand_name": "Nothing",
+      "country_of_origin": "UK",
+      "logo_url": "/logos/nothing.png",
+      "founded": 2020,
+      "website": "https://nothing.tech/in"
+    },
+    {
+      "brand_id": "B014",
+      "brand_name": "Google",
+      "country_of_origin": "USA",
+      "logo_url": "/logos/google.png",
+      "founded": 1998,
+      "website": "https://store.google.com/in"
+    },
+    {
+      "brand_id": "B015",
+      "brand_name": "Lava",
+      "country_of_origin": "India",
+      "logo_url": "/logos/lava.png",
+      "founded": 2009,
+      "website": "https://www.lavamobiles.com"
+    },
+    {
+      "brand_id": "B016",
+      "brand_name": "Micromax",
+      "country_of_origin": "India",
+      "logo_url": "/logos/micromax.png",
+      "founded": 2000,
+      "website": "https://www.micromaxinfo.com"
+    },
+    {
+      "brand_id": "B017",
+      "brand_name": "Tecno",
+      "country_of_origin": "China",
+      "logo_url": "/logos/tecno.png",
+      "founded": 2006,
+      "website": "https://www.tecno-mobile.com/in"
+    },
+    {
+      "brand_id": "B018",
+      "brand_name": "Infinix",
+      "country_of_origin": "China",
+      "logo_url": "/logos/infinix.png",
+      "founded": 2013,
+      "website": "https://www.infinixmobility.com/in"
+    },
+    {
+      "brand_id": "B019",
+      "brand_name": "itel",
+      "country_of_origin": "China",
+      "logo_url": "/logos/itel.png",
+      "founded": 2007,
+      "website": "https://www.itel-mobile.com/in"
+    },
+    {
+      "brand_id": "B020",
+      "brand_name": "Honor",
+      "country_of_origin": "China",
+      "logo_url": "/logos/honor.png",
+      "founded": 2013,
+      "website": "https://www.hihonor.com/in"
+    },
+    {
+      "brand_id": "B021",
+      "brand_name": "Sony",
+      "country_of_origin": "Japan",
+      "logo_url": "/logos/sony.png",
+      "founded": 1946,
+      "website": "https://www.sony.co.in/smartphones"
+    },
+    {
+      "brand_id": "B022",
+      "brand_name": "Asus",
+      "country_of_origin": "Taiwan",
+      "logo_url": "/logos/asus.png",
+      "founded": 1989,
+      "website": "https://www.asus.com/in/phones"
+    }
+  ],
+  "phones": [
+    {
+      "phone_id": "P001",
+      "brand_id": "B001",
+      "model_name": "Samsung Galaxy S25 Ultra",
+      "released": "2025-01-22",
+      "status": "Available",
+      "price_inr": 134999,
+      "price_usd": 1299,
+      "colors": [
+        "Titanium Black",
+        "Titanium Gray",
+        "Titanium Whitesilver",
+        "Titanium Silverblue"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "bands_4g": "LTE bands 1-4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 34, 38, 39, 40, 41, 66",
+        "bands_5g": "SA/NSA/Sub6/mmWave",
+        "speed": "HSPA 42.2/5.76 Mbps, LTE-A (7CA), 5G"
+      },
+      "launch": {
+        "announced": "2025-01-22",
+        "status": "Available. Released 2025-01-22"
+      },
+      "body": {
+        "dimensions": "162.8 x 77.6 x 8.2 mm",
+        "weight": "218 g",
+        "build": "Glass front (Gorilla Armor 2), titanium frame, glass back (Gorilla Armor 2)",
+        "sim": "Nano-SIM + eSIM",
+        "ip_rating": "IP68 dust/water resistant (up to 2m for 30 min)"
+      },
+      "display": {
+        "type": "Dynamic AMOLED 2X",
+        "size": "6.9 inches",
+        "resolution": "1440 x 3088 pixels",
+        "ppi": "~489 ppi",
+        "aspect_ratio": "19.4:9",
+        "refresh_rate": "1-120 Hz adaptive",
+        "brightness": "2600 nits (peak)",
+        "protection": "Corning Gorilla Armor 2",
+        "features": "HDR10+, Always-On display"
+      },
+      "platform": {
+        "os": "Android 15",
+        "chipset": "Snapdragon 8 Elite for Galaxy (SM8750-AB)",
+        "cpu": "Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)",
+        "gpu": "Adreno 830"
+      },
+      "memory": {
+        "ram_options": [
+          "12 GB"
+        ],
+        "storage_options": [
+          "256 GB",
+          "512 GB",
+          "1 TB"
+        ],
+        "storage_type": "UFS 4.0",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Quad",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 200,
+            "aperture": "f/1.7",
+            "focal_length": "23mm",
+            "ois": true,
+            "features": "PDAF, OIS"
+          },
+          {
+            "type": "Periscope Telephoto",
+            "megapixels": 50,
+            "aperture": "f/3.4",
+            "focal_length": "111mm",
+            "ois": true,
+            "features": "5x optical zoom, OIS"
+          },
+          {
+            "type": "Telephoto",
+            "megapixels": 10,
+            "aperture": "f/2.4",
+            "focal_length": "67mm",
+            "ois": true,
+            "features": "3x optical zoom, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 12,
+            "aperture": "f/2.2",
+            "focal_length": "13mm",
+            "ois": false,
+            "features": "Autofocus"
+          }
+        ],
+        "video": "8K@30fps, 4K@120fps, 1080p@240fps",
+        "features": [
+          "LED flash",
+          "Auto-HDR",
+          "Panorama",
+          "RAW capture",
+          "Expert RAW"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 12,
+        "aperture": "f/2.2",
+        "video": "4K@60fps",
+        "features": [
+          "Auto-HDR",
+          "Dual video call"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct",
+        "bluetooth": "5.4, A2DP, LE, aptX HD",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 3.2 Gen 2, USB On-The-Go",
+        "infrared": false,
+        "satellite_messaging": true
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, ultrasonic)",
+          "Accelerometer",
+          "Barometer",
+          "Compass",
+          "Gyroscope",
+          "Proximity",
+          "Barometer",
+          "SpO2",
+          "ECG"
+        ],
+        "stylus": "S Pen (built-in)",
+        "face_recognition": true,
+        "other": [
+          "Samsung DeX",
+          "Samsung Pay",
+          "Ultra Wideband (UWB)"
+        ]
+      },
+      "battery": {
+        "capacity": "5000 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "45W",
+        "wireless_charging": "15W",
+        "reverse_wireless": "4.5W",
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P002",
+      "brand_id": "B001",
+      "model_name": "Samsung Galaxy A55 5G",
+      "released": "2024-03-11",
+      "status": "Available",
+      "price_inr": 38999,
+      "price_usd": 449,
+      "colors": [
+        "Awesome Iceblue",
+        "Awesome Lilac",
+        "Awesome Navy",
+        "Awesome Lemon"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "bands_4g": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 38, 39, 40, 41, 66",
+        "bands_5g": "SA/NSA",
+        "speed": "HSPA 42.2/5.76 Mbps, LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-03-11",
+        "status": "Available. Released 2024-03-11"
+      },
+      "body": {
+        "dimensions": "161.1 x 77.4 x 8.2 mm",
+        "weight": "213 g",
+        "build": "Corning Gorilla Glass Victus+ front, aluminum frame, glass back",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": "IP67"
+      },
+      "display": {
+        "type": "Super AMOLED",
+        "size": "6.6 inches",
+        "resolution": "1080 x 2340 pixels",
+        "ppi": "~390 ppi",
+        "aspect_ratio": "19.5:9",
+        "refresh_rate": "120 Hz",
+        "brightness": "1000 nits (HBM)",
+        "protection": "Corning Gorilla Glass Victus+",
+        "features": "HDR10+"
+      },
+      "platform": {
+        "os": "Android 14, One UI 6.1",
+        "chipset": "Exynos 1480 (4 nm)",
+        "cpu": "Octa-core (4x2.75 GHz Cortex-A78 + 4x2.0 GHz Cortex-A55)",
+        "gpu": "Xclipse 540"
+      },
+      "memory": {
+        "ram_options": [
+          "8 GB"
+        ],
+        "storage_options": [
+          "128 GB",
+          "256 GB"
+        ],
+        "storage_type": "UFS 2.2",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.8",
+            "focal_length": "23mm",
+            "ois": true,
+            "features": "PDAF, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 12,
+            "aperture": "f/2.2",
+            "focal_length": "13mm",
+            "ois": false,
+            "features": ""
+          },
+          {
+            "type": "Macro",
+            "megapixels": 5,
+            "aperture": "f/2.4",
+            "focal_length": "25mm",
+            "ois": false,
+            "features": ""
+          }
+        ],
+        "video": "4K@30fps, 1080p@60fps",
+        "features": [
+          "LED flash",
+          "Panorama",
+          "HDR"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 32,
+        "aperture": "f/2.2",
+        "video": "4K@30fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+        "bluetooth": "5.3, A2DP, LE",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 2.0",
+        "infrared": false,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, optical)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "Samsung Pay"
+        ]
+      },
+      "battery": {
+        "capacity": "5000 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "25W",
+        "wireless_charging": null,
+        "reverse_wireless": null,
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P003",
+      "brand_id": "B002",
+      "model_name": "Apple iPhone 16 Pro Max",
+      "released": "2024-09-20",
+      "status": "Available",
+      "price_inr": 144900,
+      "price_usd": 1199,
+      "colors": [
+        "Black Titanium",
+        "White Titanium",
+        "Natural Titanium",
+        "Desert Titanium"
+      ],
+      "network": {
+        "technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "bands_4g": "Bands 1-4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66",
+        "bands_5g": "SA/NSA/Sub6/mmWave",
+        "speed": "HSPA 42.2/5.76 Mbps, LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-09-09",
+        "status": "Available. Released 2024-09-20"
+      },
+      "body": {
+        "dimensions": "163 x 77.6 x 8.25 mm",
+        "weight": "227 g",
+        "build": "Textured matte glass front (Ceramic Shield), titanium frame, textured matte glass back",
+        "sim": "Nano-SIM + eSIM (in India: Dual eSIM)",
+        "ip_rating": "IP68 (6m for 30 min)"
+      },
+      "display": {
+        "type": "LTPO Super Retina XDR OLED",
+        "size": "6.9 inches",
+        "resolution": "1320 x 2868 pixels",
+        "ppi": "~460 ppi",
+        "aspect_ratio": "19.5:9",
+        "refresh_rate": "1-120 Hz ProMotion adaptive",
+        "brightness": "2000 nits (HBM), 1000 nits (typical)",
+        "protection": "Ceramic Shield",
+        "features": "HDR10, Dolby Vision, Always-On display"
+      },
+      "platform": {
+        "os": "iOS 18",
+        "chipset": "Apple A18 Pro (3 nm)",
+        "cpu": "Hexa-core (2x4.05 GHz Caspian + 4x2.42 GHz Lightning)",
+        "gpu": "Apple GPU (6-core)"
+      },
+      "memory": {
+        "ram_options": [
+          "8 GB"
+        ],
+        "storage_options": [
+          "256 GB",
+          "512 GB",
+          "1 TB"
+        ],
+        "storage_type": "NVMe",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 48,
+            "aperture": "f/1.78",
+            "focal_length": "24mm",
+            "ois": true,
+            "features": "Sensor-shift OIS 2nd gen, PDAF, 100% Focus Pixels"
+          },
+          {
+            "type": "Periscope Telephoto",
+            "megapixels": 12,
+            "aperture": "f/2.8",
+            "focal_length": "120mm",
+            "ois": true,
+            "features": "5x optical zoom, Tetraprism OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 48,
+            "aperture": "f/2.2",
+            "focal_length": "13mm",
+            "ois": false,
+            "features": "Autofocus, macro"
+          }
+        ],
+        "video": "4K@120fps ProRes, 4K@60fps, 1080p@240fps",
+        "features": [
+          "Photographic Styles",
+          "Smart HDR 5",
+          "Night mode",
+          "Portrait mode",
+          "Action mode",
+          "Cinematic mode",
+          "ProRes video"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 12,
+        "aperture": "f/1.9",
+        "video": "4K@60fps",
+        "features": [
+          "Autofocus",
+          "Portrait mode",
+          "Cinematic mode"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band",
+        "bluetooth": "5.3, A2DP, LE",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO, QZSS",
+        "usb": "USB Type-C 3.2 Gen 2",
+        "infrared": false,
+        "satellite_messaging": true
+      },
+      "features": {
+        "sensors": [
+          "Face ID",
+          "Barometer",
+          "High dynamic range gyro",
+          "High-g accelerometer",
+          "Proximity sensor",
+          "Dual ambient light sensors"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "Apple Pay",
+          "MagSafe",
+          "Ultra Wideband chip",
+          "Emergency SOS via satellite",
+          "Action Button",
+          "Camera Control button"
+        ]
+      },
+      "battery": {
+        "capacity": "4685 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "27W",
+        "wireless_charging": "25W MagSafe, 15W Qi2",
+        "reverse_wireless": null,
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P004",
+      "brand_id": "B003",
+      "model_name": "OnePlus 13",
+      "released": "2025-01-07",
+      "status": "Available",
+      "price_inr": 69999,
+      "price_usd": 899,
+      "colors": [
+        "Midnight Ocean",
+        "Arctic Dawn",
+        "Black Eclipse"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "bands_4g": "Bands 1-5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 34, 38, 39, 40, 41, 66",
+        "bands_5g": "SA/NSA/Sub6",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-10-31",
+        "status": "Available. Released 2025-01-07"
+      },
+      "body": {
+        "dimensions": "162.9 x 76.5 x 8.9 mm",
+        "weight": "210 g",
+        "build": "Gorilla Glass 7i front, aluminum frame, glass or vegan leather back",
+        "sim": "Nano-SIM + Nano-SIM / eSIM",
+        "ip_rating": "IP65"
+      },
+      "display": {
+        "type": "LTPO AMOLED",
+        "size": "6.82 inches",
+        "resolution": "1440 x 3168 pixels",
+        "ppi": "~510 ppi",
+        "aspect_ratio": "20.1:9",
+        "refresh_rate": "1-120 Hz adaptive",
+        "brightness": "4500 nits (peak)",
+        "protection": "Corning Gorilla Glass 7i",
+        "features": "HDR10+, Always-On"
+      },
+      "platform": {
+        "os": "Android 15, OxygenOS 15",
+        "chipset": "Snapdragon 8 Elite (3 nm)",
+        "cpu": "Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)",
+        "gpu": "Adreno 830"
+      },
+      "memory": {
+        "ram_options": [
+          "12 GB",
+          "16 GB"
+        ],
+        "storage_options": [
+          "256 GB",
+          "512 GB"
+        ],
+        "storage_type": "UFS 4.0",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple (Hasselblad tuned)",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.6",
+            "focal_length": "23mm",
+            "ois": true,
+            "features": "PDAF, OIS, Hasselblad Natural Colour Calibration"
+          },
+          {
+            "type": "Periscope Telephoto",
+            "megapixels": 50,
+            "aperture": "f/2.6",
+            "focal_length": "73mm",
+            "ois": true,
+            "features": "3x optical zoom, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 50,
+            "aperture": "f/2.0",
+            "focal_length": "15mm",
+            "ois": false,
+            "features": ""
+          }
+        ],
+        "video": "4K@120fps, 1080p@240fps",
+        "features": [
+          "Hasselblad Pro Mode",
+          "RAW",
+          "Night Mode",
+          "Bokeh"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 32,
+        "aperture": "f/2.4",
+        "video": "4K@30fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6/7, tri-band",
+        "bluetooth": "5.4, A2DP, LE, aptX HD, LDAC",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 3.2",
+        "infrared": false,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, optical)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "OnePlus Alert Slider"
+        ]
+      },
+      "battery": {
+        "capacity": "6000 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "100W SUPERVOOC",
+        "wireless_charging": "50W AirVOOC",
+        "reverse_wireless": "10W",
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P005",
+      "brand_id": "B004",
+      "model_name": "Xiaomi 14 Ultra",
+      "released": "2024-03-01",
+      "status": "Available",
+      "price_inr": 99999,
+      "price_usd": 1099,
+      "colors": [
+        "Black",
+        "White",
+        "Titanium Special Edition"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1900 / 2100",
+        "bands_4g": "Bands 1-5, 7, 8, 18, 19, 20, 26, 28, 32, 38, 39, 40, 41",
+        "bands_5g": "SA/NSA/Sub6",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-02-22",
+        "status": "Available. Released 2024-03-01"
+      },
+      "body": {
+        "dimensions": "161.4 x 75.3 x 9.35 mm",
+        "weight": "229 g",
+        "build": "Gorilla Glass 5 front, titanium frame, ceramic or vegan leather back",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": "IP68"
+      },
+      "display": {
+        "type": "LTPO AMOLED",
+        "size": "6.73 inches",
+        "resolution": "1440 x 3200 pixels",
+        "ppi": "~522 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "1-120 Hz adaptive",
+        "brightness": "3000 nits (peak)",
+        "protection": "Corning Gorilla Glass 5",
+        "features": "HDR10+, Dolby Vision, Always-On"
+      },
+      "platform": {
+        "os": "Android 14, HyperOS",
+        "chipset": "Snapdragon 8 Gen 3 (4 nm)",
+        "cpu": "Octa-core (1x3.3 GHz Cortex-X4 + 3x3.2 GHz Cortex-A720 + 2x3.0 GHz Cortex-A720 + 2x2.3 GHz Cortex-A520)",
+        "gpu": "Adreno 750"
+      },
+      "memory": {
+        "ram_options": [
+          "16 GB"
+        ],
+        "storage_options": [
+          "256 GB",
+          "512 GB",
+          "1 TB"
+        ],
+        "storage_type": "UFS 4.0",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Quad (Leica tuned)",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.63-f/4.0",
+            "focal_length": "23mm",
+            "ois": true,
+            "features": "Variable aperture, PDAF, OIS, Leica Summilux lens"
+          },
+          {
+            "type": "Periscope Telephoto",
+            "megapixels": 50,
+            "aperture": "f/2.5",
+            "focal_length": "120mm",
+            "ois": true,
+            "features": "5x optical zoom, OIS"
+          },
+          {
+            "type": "Telephoto",
+            "megapixels": 50,
+            "aperture": "f/1.8",
+            "focal_length": "75mm",
+            "ois": true,
+            "features": "3.2x optical zoom, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 200,
+            "aperture": "f/1.8",
+            "focal_length": "12mm",
+            "ois": false,
+            "features": "Autofocus"
+          }
+        ],
+        "video": "8K@24fps, 4K@120fps, 1080p@240fps",
+        "features": [
+          "Leica Authentic/Leica Vibrant",
+          "RAW",
+          "Night Mode",
+          "Long Exposure"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 32,
+        "aperture": "f/2.0",
+        "video": "4K@30fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7",
+        "bluetooth": "5.4, A2DP, aptX, aptX HD, LDAC",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 3.2 Gen 2",
+        "infrared": true,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, ultrasonic)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass",
+          "Barometer"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "IR Blaster",
+          "Xiaomi Hyper Charge"
+        ]
+      },
+      "battery": {
+        "capacity": "5000 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "90W HyperCharge",
+        "wireless_charging": "80W HyperCharge",
+        "reverse_wireless": "10W",
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P006",
+      "brand_id": "B005",
+      "model_name": "Redmi Note 14 Pro+ 5G",
+      "released": "2024-11-07",
+      "status": "Available",
+      "price_inr": 31999,
+      "price_usd": 349,
+      "colors": [
+        "Phantom Purple",
+        "Spectra Black",
+        "Frost White"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1900 / 2100",
+        "bands_4g": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 26, 28, 38, 40, 41",
+        "bands_5g": "SA/NSA",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-10-30",
+        "status": "Available. Released 2024-11-07"
+      },
+      "body": {
+        "dimensions": "162.33 x 74.67 x 8.55 mm",
+        "weight": "199 g",
+        "build": "Gorilla Glass 7i front, IP68 aluminium mid-frame, polycarbonate back",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": "IP68"
+      },
+      "display": {
+        "type": "AMOLED",
+        "size": "6.67 inches",
+        "resolution": "1220 x 2712 pixels",
+        "ppi": "~446 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "120 Hz",
+        "brightness": "3000 nits (peak)",
+        "protection": "Corning Gorilla Glass 7i",
+        "features": "HDR10+"
+      },
+      "platform": {
+        "os": "Android 14, HyperOS",
+        "chipset": "Snapdragon 7s Gen 3 (4 nm)",
+        "cpu": "Octa-core (4x2.5 GHz Cortex-A78 + 4x1.8 GHz Cortex-A55)",
+        "gpu": "Adreno 710"
+      },
+      "memory": {
+        "ram_options": [
+          "8 GB",
+          "12 GB"
+        ],
+        "storage_options": [
+          "128 GB",
+          "256 GB"
+        ],
+        "storage_type": "UFS 2.2",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 200,
+            "aperture": "f/1.65",
+            "focal_length": "24mm",
+            "ois": true,
+            "features": "PDAF, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 8,
+            "aperture": "f/2.2",
+            "focal_length": "15mm",
+            "ois": false,
+            "features": ""
+          },
+          {
+            "type": "Macro",
+            "megapixels": 2,
+            "aperture": "f/2.4",
+            "focal_length": "25mm",
+            "ois": false,
+            "features": ""
+          }
+        ],
+        "video": "4K@30fps, 1080p@60fps",
+        "features": [
+          "LED flash",
+          "Panorama",
+          "HDR",
+          "Night Mode"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 20,
+        "aperture": "f/2.2",
+        "video": "1080p@30fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+        "bluetooth": "5.4, A2DP, LE, aptX",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 2.0",
+        "infrared": true,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (side-mounted)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "IR Blaster"
+        ]
+      },
+      "battery": {
+        "capacity": "5110 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "90W HyperCharge",
+        "wireless_charging": null,
+        "reverse_wireless": null,
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P007",
+      "brand_id": "B006",
+      "model_name": "Realme GT 7 Pro",
+      "released": "2024-11-27",
+      "status": "Available",
+      "price_inr": 59999,
+      "price_usd": 699,
+      "colors": [
+        "Mars Orange",
+        "Neptune Blue",
+        "Fluid Silver"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1900 / 2100",
+        "bands_4g": "Bands 1-5, 7, 8, 18, 19, 20, 26, 28, 38, 39, 40, 41",
+        "bands_5g": "SA/NSA",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-11-27",
+        "status": "Available. Released 2024-11-27"
+      },
+      "body": {
+        "dimensions": "162.5 x 76.0 x 8.55 mm",
+        "weight": "223 g",
+        "build": "Gorilla Glass 7i front, aluminum frame, vegan leather or glass back",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": "IP69"
+      },
+      "display": {
+        "type": "LTPO AMOLED",
+        "size": "6.78 inches",
+        "resolution": "1264 x 2780 pixels",
+        "ppi": "~450 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "1-120 Hz adaptive",
+        "brightness": "6000 nits (peak)",
+        "protection": "Corning Gorilla Glass 7i",
+        "features": "HDR10+, Dolby Vision, Always-On"
+      },
+      "platform": {
+        "os": "Android 15, realme UI 6.0",
+        "chipset": "Snapdragon 8 Elite (3 nm)",
+        "cpu": "Octa-core (2x4.32 GHz Oryon V2 + 6x3.53 GHz Oryon V2)",
+        "gpu": "Adreno 830"
+      },
+      "memory": {
+        "ram_options": [
+          "12 GB",
+          "16 GB"
+        ],
+        "storage_options": [
+          "256 GB",
+          "512 GB"
+        ],
+        "storage_type": "UFS 4.0",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.8",
+            "focal_length": "24mm",
+            "ois": true,
+            "features": "PDAF, OIS"
+          },
+          {
+            "type": "Periscope Telephoto",
+            "megapixels": 50,
+            "aperture": "f/2.65",
+            "focal_length": "73mm",
+            "ois": true,
+            "features": "3x optical zoom, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 8,
+            "aperture": "f/2.2",
+            "focal_length": "15mm",
+            "ois": false,
+            "features": ""
+          }
+        ],
+        "video": "4K@60fps, 1080p@240fps",
+        "features": [
+          "Night Mode",
+          "RAW",
+          "Panorama",
+          "AI Eraser"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 16,
+        "aperture": "f/2.4",
+        "video": "4K@30fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7",
+        "bluetooth": "5.4, A2DP, LE, aptX HD, LDAC",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 3.2",
+        "infrared": true,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, optical)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "IR Blaster"
+        ]
+      },
+      "battery": {
+        "capacity": "6500 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "120W SUPERVOOC",
+        "wireless_charging": null,
+        "reverse_wireless": null,
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P008",
+      "brand_id": "B007",
+      "model_name": "Vivo X200 Pro",
+      "released": "2024-11-01",
+      "status": "Available",
+      "price_inr": 94999,
+      "price_usd": 999,
+      "colors": [
+        "Titanium Gray",
+        "Cosmos Black",
+        "Sprout Green"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1900 / 2100",
+        "bands_4g": "Bands 1-5, 7, 8, 18, 19, 20, 28, 38, 39, 40, 41",
+        "bands_5g": "SA/NSA",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-10-14",
+        "status": "Available. Released 2024-11-01"
+      },
+      "body": {
+        "dimensions": "164.35 x 76.1 x 8.6 mm",
+        "weight": "229 g",
+        "build": "Gorilla Glass front, titanium mid-frame, glass back",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": "IP68 + IP69"
+      },
+      "display": {
+        "type": "LTPO AMOLED",
+        "size": "6.78 inches",
+        "resolution": "1260 x 2800 pixels",
+        "ppi": "~452 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "1-120 Hz adaptive",
+        "brightness": "4500 nits (peak)",
+        "protection": "Corning Gorilla Glass 5",
+        "features": "HDR10+, Dolby Vision, Always-On"
+      },
+      "platform": {
+        "os": "Android 15, OriginOS 5 / Funtouch OS 15",
+        "chipset": "Dimensity 9400 (3 nm)",
+        "cpu": "Octa-core (1x3.62 GHz Cortex-X925 + 3x3.3 GHz Cortex-X4 + 4x2.4 GHz Cortex-A720)",
+        "gpu": "Immortalis-G925 MC12"
+      },
+      "memory": {
+        "ram_options": [
+          "16 GB"
+        ],
+        "storage_options": [
+          "256 GB",
+          "512 GB",
+          "1 TB"
+        ],
+        "storage_type": "UFS 4.0",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple (Zeiss tuned)",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.57",
+            "focal_length": "23mm",
+            "ois": true,
+            "features": "PDAF, OIS, Zeiss T* coating"
+          },
+          {
+            "type": "Periscope Telephoto",
+            "megapixels": 200,
+            "aperture": "f/2.67",
+            "focal_length": "85mm",
+            "ois": true,
+            "features": "3.7x optical zoom, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 50,
+            "aperture": "f/2.0",
+            "focal_length": "14mm",
+            "ois": false,
+            "features": "Autofocus"
+          }
+        ],
+        "video": "4K@120fps, 8K@30fps",
+        "features": [
+          "Zeiss Natural Colour",
+          "Night Mode",
+          "RAW",
+          "Bokeh"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 32,
+        "aperture": "f/2.0",
+        "video": "4K@30fps",
+        "features": [
+          "HDR",
+          "Night Mode"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7",
+        "bluetooth": "5.4, LDAC, aptX HD",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 3.2",
+        "infrared": true,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, ultrasonic)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass",
+          "Barometer"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "IR Blaster"
+        ]
+      },
+      "battery": {
+        "capacity": "6000 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "90W FlashCharge",
+        "wireless_charging": "30W",
+        "reverse_wireless": "10W",
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P009",
+      "brand_id": "B008",
+      "model_name": "OPPO Find X8 Pro",
+      "released": "2024-11-21",
+      "status": "Available",
+      "price_inr": 89999,
+      "price_usd": 979,
+      "colors": [
+        "Space Black",
+        "Pearl White",
+        "Clio Blue"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1900 / 2100",
+        "bands_4g": "Bands 1-5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 32, 38, 39, 40, 41",
+        "bands_5g": "SA/NSA",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-11-21",
+        "status": "Available. Released 2024-11-21"
+      },
+      "body": {
+        "dimensions": "162.8 x 76.4 x 8.24 mm",
+        "weight": "215 g",
+        "build": "Gorilla Glass 7i front, titanium frame, glass back",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": "IP68 + IP69"
+      },
+      "display": {
+        "type": "LTPO AMOLED",
+        "size": "6.78 inches",
+        "resolution": "1264 x 2780 pixels",
+        "ppi": "~450 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "1-120 Hz adaptive",
+        "brightness": "4500 nits (peak)",
+        "protection": "Corning Gorilla Glass 7i",
+        "features": "HDR10+, Dolby Vision, Always-On"
+      },
+      "platform": {
+        "os": "Android 15, ColorOS 15",
+        "chipset": "Dimensity 9400 (3 nm)",
+        "cpu": "Octa-core (1x3.62 GHz Cortex-X925 + 3x3.3 GHz Cortex-X4 + 4x2.4 GHz Cortex-A720)",
+        "gpu": "Immortalis-G925 MC12"
+      },
+      "memory": {
+        "ram_options": [
+          "12 GB",
+          "16 GB"
+        ],
+        "storage_options": [
+          "256 GB",
+          "512 GB",
+          "1 TB"
+        ],
+        "storage_type": "UFS 4.0",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Quad (Hasselblad tuned)",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.6",
+            "focal_length": "23mm",
+            "ois": true,
+            "features": "PDAF, OIS, Hasselblad Natural Colour Calibration"
+          },
+          {
+            "type": "Periscope Telephoto",
+            "megapixels": 50,
+            "aperture": "f/2.6",
+            "focal_length": "73mm",
+            "ois": true,
+            "features": "3x optical zoom, OIS"
+          },
+          {
+            "type": "Telephoto",
+            "megapixels": 50,
+            "aperture": "f/2.0",
+            "focal_length": "50mm",
+            "ois": true,
+            "features": "2x optical zoom, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 50,
+            "aperture": "f/2.0",
+            "focal_length": "15mm",
+            "ois": false,
+            "features": "Autofocus"
+          }
+        ],
+        "video": "4K@60fps, 1080p@240fps",
+        "features": [
+          "Hasselblad Pro",
+          "RAW",
+          "Night Mode",
+          "AI Portrait"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 32,
+        "aperture": "f/2.4",
+        "video": "4K@30fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7",
+        "bluetooth": "5.4, aptX HD, LDAC",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 3.2",
+        "infrared": true,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, optical)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "IR Blaster",
+          "OPPO Pay"
+        ]
+      },
+      "battery": {
+        "capacity": "5910 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "80W SUPERVOOC",
+        "wireless_charging": "50W AirVOOC",
+        "reverse_wireless": "10W",
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P010",
+      "brand_id": "B009",
+      "model_name": "Motorola Edge 50 Ultra",
+      "released": "2024-05-23",
+      "status": "Available",
+      "price_inr": 59999,
+      "price_usd": 699,
+      "colors": [
+        "Nordic Wood",
+        "Peach Fuzz",
+        "Midnight Blue"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "bands_4g": "Bands 1-5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 38, 39, 40, 41, 66",
+        "bands_5g": "SA/NSA",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-05-23",
+        "status": "Available. Released 2024-05-23"
+      },
+      "body": {
+        "dimensions": "161.1 x 72.4 x 8.6 mm",
+        "weight": "197 g",
+        "build": "Gorilla Glass Victus front, aluminum frame, vegan leather or wood back",
+        "sim": "Nano-SIM + eSIM",
+        "ip_rating": "IP68"
+      },
+      "display": {
+        "type": "pOLED",
+        "size": "6.67 inches",
+        "resolution": "1080 x 2400 pixels",
+        "ppi": "~394 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "144 Hz",
+        "brightness": "2500 nits (peak)",
+        "protection": "Corning Gorilla Glass Victus",
+        "features": "HDR10+, Dolby Vision"
+      },
+      "platform": {
+        "os": "Android 14",
+        "chipset": "Snapdragon 8s Gen 3 (4 nm)",
+        "cpu": "Octa-core (1x3.0 GHz Cortex-X4 + 4x2.8 GHz Cortex-A720 + 3x2.0 GHz Cortex-A520)",
+        "gpu": "Adreno 735"
+      },
+      "memory": {
+        "ram_options": [
+          "12 GB"
+        ],
+        "storage_options": [
+          "256 GB",
+          "512 GB"
+        ],
+        "storage_type": "UFS 4.0",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.9",
+            "focal_length": "23mm",
+            "ois": true,
+            "features": "PDAF, OIS"
+          },
+          {
+            "type": "Periscope Telephoto",
+            "megapixels": 64,
+            "aperture": "f/2.4",
+            "focal_length": "70mm",
+            "ois": true,
+            "features": "3x optical zoom, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 50,
+            "aperture": "f/2.2",
+            "focal_length": "14mm",
+            "ois": false,
+            "features": "AF"
+          }
+        ],
+        "video": "4K@60fps, 1080p@240fps",
+        "features": [
+          "Night Mode",
+          "HDR",
+          "AI Enhancements"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 50,
+        "aperture": "f/2.0",
+        "video": "4K@30fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e",
+        "bluetooth": "5.4, A2DP, LE, aptX Adaptive",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 3.2",
+        "infrared": false,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, optical)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "Ready For (desktop mode)",
+          "3 years OS updates"
+        ]
+      },
+      "battery": {
+        "capacity": "4500 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "125W TurboPower",
+        "wireless_charging": "50W",
+        "reverse_wireless": "10W",
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P011",
+      "brand_id": "B011",
+      "model_name": "iQOO 13",
+      "released": "2025-01-09",
+      "status": "Available",
+      "price_inr": 54999,
+      "price_usd": 649,
+      "colors": [
+        "Legend",
+        "Nardo Grey",
+        "BMW M Performance Edition"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1900 / 2100",
+        "bands_4g": "Bands 1-5, 7, 8, 18-20, 26, 28, 38-41",
+        "bands_5g": "SA/NSA",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2025-01-09",
+        "status": "Available. Released 2025-01-09"
+      },
+      "body": {
+        "dimensions": "163.7 x 76.0 x 8.63 mm",
+        "weight": "225 g",
+        "build": "Gorilla Glass 7i front, aluminum frame, glass back",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": "IP68 + IP69"
+      },
+      "display": {
+        "type": "LTPO AMOLED",
+        "size": "6.82 inches",
+        "resolution": "1440 x 3168 pixels",
+        "ppi": "~510 ppi",
+        "aspect_ratio": "20.1:9",
+        "refresh_rate": "1-144 Hz adaptive",
+        "brightness": "4500 nits (peak)",
+        "protection": "Corning Gorilla Glass 7i",
+        "features": "HDR10+, Dolby Vision, Always-On"
+      },
+      "platform": {
+        "os": "Android 15, OriginOS 5 / Funtouch OS 15",
+        "chipset": "Snapdragon 8 Elite (3 nm)",
+        "cpu": "Octa-core (2x4.32 GHz Oryon V2 + 6x3.53 GHz Oryon V2)",
+        "gpu": "Adreno 830"
+      },
+      "memory": {
+        "ram_options": [
+          "12 GB",
+          "16 GB"
+        ],
+        "storage_options": [
+          "256 GB",
+          "512 GB"
+        ],
+        "storage_type": "UFS 4.0",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple (Zeiss tuned)",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.6",
+            "focal_length": "23mm",
+            "ois": true,
+            "features": "PDAF, OIS"
+          },
+          {
+            "type": "Periscope Telephoto",
+            "megapixels": 50,
+            "aperture": "f/2.57",
+            "focal_length": "73mm",
+            "ois": true,
+            "features": "3x optical zoom"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 50,
+            "aperture": "f/2.0",
+            "focal_length": "14mm",
+            "ois": false,
+            "features": "AF"
+          }
+        ],
+        "video": "4K@120fps, 1080p@240fps",
+        "features": [
+          "Zeiss T* Lens",
+          "Night Mode",
+          "RAW",
+          "AI Portrait"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 16,
+        "aperture": "f/2.45",
+        "video": "4K@30fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7",
+        "bluetooth": "5.4, LDAC, aptX HD",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 3.2",
+        "infrared": true,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, ultrasonic)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass",
+          "Barometer"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "IR Blaster",
+          "Gaming triggers",
+          "V3+ gaming chip"
+        ]
+      },
+      "battery": {
+        "capacity": "6000 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "120W FlashCharge",
+        "wireless_charging": "30W",
+        "reverse_wireless": "10W",
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P012",
+      "brand_id": "B012",
+      "model_name": "POCO X7 Pro",
+      "released": "2025-01-09",
+      "status": "Available",
+      "price_inr": 26999,
+      "price_usd": 329,
+      "colors": [
+        "Garnet Red",
+        "Celestial Silver",
+        "Midnight Black"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1900 / 2100",
+        "bands_4g": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 26, 28, 38, 40, 41",
+        "bands_5g": "SA/NSA",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2025-01-09",
+        "status": "Available. Released 2025-01-09"
+      },
+      "body": {
+        "dimensions": "160.5 x 74.7 x 8.3 mm",
+        "weight": "198 g",
+        "build": "Gorilla Glass 7i front, aluminum mid-frame, polycarbonate back",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": "IP68"
+      },
+      "display": {
+        "type": "AMOLED",
+        "size": "6.67 inches",
+        "resolution": "1220 x 2712 pixels",
+        "ppi": "~446 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "120 Hz",
+        "brightness": "3200 nits (peak)",
+        "protection": "Corning Gorilla Glass 7i",
+        "features": "HDR10+, Dolby Vision"
+      },
+      "platform": {
+        "os": "Android 15, HyperOS 2.0",
+        "chipset": "Dimensity 8400 Ultra (4 nm)",
+        "cpu": "Octa-core (1x3.65 GHz Cortex-A725 + 3x3.6 GHz Cortex-A725 + 4x2.55 GHz Cortex-A725)",
+        "gpu": "Mali-G720 Immortalis MC7"
+      },
+      "memory": {
+        "ram_options": [
+          "8 GB",
+          "12 GB"
+        ],
+        "storage_options": [
+          "256 GB",
+          "512 GB"
+        ],
+        "storage_type": "UFS 3.1",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Dual",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.6",
+            "focal_length": "24mm",
+            "ois": true,
+            "features": "PDAF, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 8,
+            "aperture": "f/2.2",
+            "focal_length": "15mm",
+            "ois": false,
+            "features": ""
+          }
+        ],
+        "video": "4K@30fps, 1080p@60fps",
+        "features": [
+          "Night Mode",
+          "HDR",
+          "AI Scene Detection"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 20,
+        "aperture": "f/2.2",
+        "video": "1080p@30fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6",
+        "bluetooth": "5.4, aptX",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 2.0",
+        "infrared": true,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (side-mounted)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "IR Blaster"
+        ]
+      },
+      "battery": {
+        "capacity": "6550 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "90W HyperCharge",
+        "wireless_charging": null,
+        "reverse_wireless": null,
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P013",
+      "brand_id": "B013",
+      "model_name": "Nothing Phone (3a) Pro",
+      "released": "2025-03-04",
+      "status": "Available",
+      "price_inr": 29999,
+      "price_usd": 379,
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "bands_4g": "Bands 1-5, 7, 8, 12, 17, 20, 28, 38, 39, 40, 41",
+        "bands_5g": "SA/NSA",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2025-03-04",
+        "status": "Available. Released 2025-03-04"
+      },
+      "body": {
+        "dimensions": "162.1 x 77.5 x 8.35 mm",
+        "weight": "201 g",
+        "build": "Gorilla Glass 5 front, aluminum frame, transparent polycarbonate back",
+        "sim": "Nano-SIM + eSIM",
+        "ip_rating": "IP64"
+      },
+      "display": {
+        "type": "AMOLED",
+        "size": "6.77 inches",
+        "resolution": "1080 x 2392 pixels",
+        "ppi": "~388 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "120 Hz",
+        "brightness": "3000 nits (peak)",
+        "protection": "Corning Gorilla Glass 5",
+        "features": "HDR10+"
+      },
+      "platform": {
+        "os": "Android 15, Nothing OS 3.1",
+        "chipset": "Snapdragon 7s Gen 3 (4 nm)",
+        "cpu": "Octa-core (4x2.5 GHz Cortex-A78 + 4x1.8 GHz Cortex-A55)",
+        "gpu": "Adreno 710"
+      },
+      "memory": {
+        "ram_options": [
+          "8 GB",
+          "12 GB"
+        ],
+        "storage_options": [
+          "128 GB",
+          "256 GB"
+        ],
+        "storage_type": "UFS 2.2",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.88",
+            "focal_length": "24mm",
+            "ois": true,
+            "features": "PDAF, OIS"
+          },
+          {
+            "type": "Telephoto",
+            "megapixels": 50,
+            "aperture": "f/2.0",
+            "focal_length": "50mm",
+            "ois": true,
+            "features": "2x optical zoom, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 8,
+            "aperture": "f/2.2",
+            "focal_length": "15mm",
+            "ois": false,
+            "features": ""
+          }
+        ],
+        "video": "4K@30fps, 1080p@60fps",
+        "features": [
+          "Night Mode",
+          "HDR",
+          "Essential Space integration"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 32,
+        "aperture": "f/2.2",
+        "video": "4K@30fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6",
+        "bluetooth": "5.4, A2DP, LE",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 2.0",
+        "infrared": false,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (side-mounted)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "Glyph Interface (LED notification system)",
+          "Essential Space (AI assistant)",
+          "Nothing OS clean UI"
+        ]
+      },
+      "battery": {
+        "capacity": "5000 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "50W",
+        "wireless_charging": null,
+        "reverse_wireless": null,
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": false,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P014",
+      "brand_id": "B014",
+      "model_name": "Google Pixel 9 Pro XL",
+      "released": "2024-08-22",
+      "status": "Available",
+      "price_inr": 109999,
+      "price_usd": 1099,
+      "colors": [
+        "Obsidian",
+        "Porcelain",
+        "Hazel",
+        "Rose Quartz"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "bands_4g": "Bands 1-5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 48, 66",
+        "bands_5g": "SA/NSA/Sub6/mmWave",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-08-13",
+        "status": "Available. Released 2024-08-22"
+      },
+      "body": {
+        "dimensions": "162.8 x 76.6 x 8.5 mm",
+        "weight": "221 g",
+        "build": "Corning Gorilla Glass Victus 2 front and back, polished titanium frame",
+        "sim": "Nano-SIM + eSIM",
+        "ip_rating": "IP68"
+      },
+      "display": {
+        "type": "LTPO OLED",
+        "size": "6.8 inches",
+        "resolution": "1344 x 2992 pixels",
+        "ppi": "~486 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "1-120 Hz adaptive",
+        "brightness": "3000 nits (peak)",
+        "protection": "Corning Gorilla Glass Victus 2",
+        "features": "HDR10+, Always-On"
+      },
+      "platform": {
+        "os": "Android 14 (upgradeable to 15)",
+        "chipset": "Google Tensor G4 (4 nm)",
+        "cpu": "Nona-core (1x3.1 GHz Cortex-X4 + 3x2.6 GHz Cortex-A720 + 4x1.92 GHz Cortex-A520 + 1x1.92 GHz Cortex-A520)",
+        "gpu": "Immortalis-G715s MC10"
+      },
+      "memory": {
+        "ram_options": [
+          "16 GB"
+        ],
+        "storage_options": [
+          "128 GB",
+          "256 GB",
+          "512 GB",
+          "1 TB"
+        ],
+        "storage_type": "UFS 3.1",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.68",
+            "focal_length": "24mm",
+            "ois": true,
+            "features": "PDAF, OIS"
+          },
+          {
+            "type": "Periscope Telephoto",
+            "megapixels": 48,
+            "aperture": "f/2.8",
+            "focal_length": "113mm",
+            "ois": true,
+            "features": "5x optical zoom, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 48,
+            "aperture": "f/1.7",
+            "focal_length": "11mm",
+            "ois": false,
+            "features": "AF, macro"
+          }
+        ],
+        "video": "4K@60fps, 1080p@240fps",
+        "features": [
+          "Google AI computational photography",
+          "Night Sight",
+          "Magic Eraser",
+          "Photo Unblur",
+          "Video Boost",
+          "Real Tone",
+          "Add Me"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 10.5,
+        "aperture": "f/2.2",
+        "video": "4K@60fps",
+        "features": [
+          "Autofocus",
+          "Face Unblur"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7",
+        "bluetooth": "5.3, A2DP, LE",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 3.2 Gen 2",
+        "infrared": false,
+        "satellite_messaging": true
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, optical)",
+          "Accelerometer",
+          "Barometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass",
+          "Soli radar chip"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "Google Pay",
+          "Titan M2 security chip",
+          "7 years OS and security updates",
+          "Gemini AI built-in",
+          "Temperature sensor"
+        ]
+      },
+      "battery": {
+        "capacity": "5060 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "37W",
+        "wireless_charging": "23W",
+        "reverse_wireless": "12W",
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": false,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P015",
+      "brand_id": "B010",
+      "model_name": "Nokia G42 5G",
+      "released": "2023-08-08",
+      "status": "Available",
+      "price_inr": 14999,
+      "price_usd": 199,
+      "colors": [
+        "So Purple",
+        "So Grey",
+        "So Pink"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 900 / 1800",
+        "bands_3g": "HSDPA 900 / 2100",
+        "bands_4g": "Bands 1, 3, 7, 8, 20, 28, 38, 40, 41",
+        "bands_5g": "SA/NSA",
+        "speed": "LTE, 5G"
+      },
+      "launch": {
+        "announced": "2023-08-08",
+        "status": "Available. Released 2023-08-08"
+      },
+      "body": {
+        "dimensions": "164.7 x 76.1 x 8.8 mm",
+        "weight": "193 g",
+        "build": "Glass front, plastic back, plastic frame",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": "IP52"
+      },
+      "display": {
+        "type": "IPS LCD",
+        "size": "6.56 inches",
+        "resolution": "720 x 1612 pixels",
+        "ppi": "~270 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "90 Hz",
+        "brightness": "500 nits",
+        "protection": null,
+        "features": null
+      },
+      "platform": {
+        "os": "Android 13 (3 years OS updates promised)",
+        "chipset": "Snapdragon 480+ 5G (8 nm)",
+        "cpu": "Octa-core (2x1.8 GHz Kryo 460 Gold + 6x1.8 GHz Kryo 460 Silver)",
+        "gpu": "Adreno 619"
+      },
+      "memory": {
+        "ram_options": [
+          "4 GB",
+          "6 GB"
+        ],
+        "storage_options": [
+          "128 GB"
+        ],
+        "storage_type": "eMMC 5.1",
+        "expandable": true
+      },
+      "camera_main": {
+        "configuration": "Triple",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.8",
+            "focal_length": "27mm",
+            "ois": false,
+            "features": "PDAF"
+          },
+          {
+            "type": "Depth",
+            "megapixels": 2,
+            "aperture": "f/2.4",
+            "focal_length": "25mm",
+            "ois": false,
+            "features": ""
+          },
+          {
+            "type": "Macro",
+            "megapixels": 2,
+            "aperture": "f/2.4",
+            "focal_length": "25mm",
+            "ois": false,
+            "features": ""
+          }
+        ],
+        "video": "1080p@30fps",
+        "features": [
+          "LED flash",
+          "Panorama",
+          "HDR"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 8,
+        "aperture": "f/2.0",
+        "video": "1080p@30fps",
+        "features": []
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+        "bluetooth": "5.1, A2DP, LE",
+        "nfc": false,
+        "gps": "GPS, GLONASS, BDS",
+        "usb": "USB Type-C 2.0",
+        "infrared": false,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (side-mounted)",
+          "Accelerometer",
+          "Proximity",
+          "Compass"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "Repairability (partnered with iFixit)",
+          "3-year OS updates"
+        ]
+      },
+      "battery": {
+        "capacity": "4500 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "20W",
+        "wireless_charging": null,
+        "reverse_wireless": null,
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": true,
+        "dolby_atmos": false,
+        "stereo_speakers": false
+      }
+    },
+    {
+      "phone_id": "P016",
+      "brand_id": "B020",
+      "model_name": "Honor Magic 7 Pro",
+      "released": "2024-12-01",
+      "status": "Available",
+      "price_inr": 74999,
+      "price_usd": 849,
+      "colors": [
+        "Lunar Shadow Gray",
+        "Glacier White",
+        "Black"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1900 / 2100",
+        "bands_4g": "Bands 1-5, 7, 8, 18, 19, 20, 26, 28, 38, 39, 40, 41",
+        "bands_5g": "SA/NSA",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-10-30",
+        "status": "Available. Released 2024-12-01"
+      },
+      "body": {
+        "dimensions": "162.8 x 76.0 x 8.9 mm",
+        "weight": "223 g",
+        "build": "Ceramic or glass front, titanium frame, ceramic or glass back",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": "IP68 + IP69"
+      },
+      "display": {
+        "type": "LTPO OLED",
+        "size": "6.8 inches",
+        "resolution": "1280 x 2800 pixels",
+        "ppi": "~452 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "1-120 Hz adaptive",
+        "brightness": "5000 nits (peak)",
+        "protection": "Ceramic or Gorilla Glass",
+        "features": "HDR10+, Always-On"
+      },
+      "platform": {
+        "os": "Android 15, MagicOS 9.0",
+        "chipset": "Snapdragon 8 Elite (3 nm)",
+        "cpu": "Octa-core (2x4.32 GHz Oryon V2 + 6x3.53 GHz Oryon V2)",
+        "gpu": "Adreno 830"
+      },
+      "memory": {
+        "ram_options": [
+          "12 GB",
+          "16 GB"
+        ],
+        "storage_options": [
+          "256 GB",
+          "512 GB",
+          "1 TB"
+        ],
+        "storage_type": "UFS 4.0",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.4",
+            "focal_length": "24mm",
+            "ois": true,
+            "features": "PDAF, OIS, variable aperture"
+          },
+          {
+            "type": "Periscope Telephoto",
+            "megapixels": 200,
+            "aperture": "f/2.6",
+            "focal_length": "85mm",
+            "ois": true,
+            "features": "3.5x optical zoom"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 50,
+            "aperture": "f/1.9",
+            "focal_length": "13mm",
+            "ois": false,
+            "features": "AF"
+          }
+        ],
+        "video": "4K@60fps, 1080p@240fps",
+        "features": [
+          "HONOR AI Camera",
+          "Night Mode",
+          "RAW",
+          "AI Erase"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 50,
+        "aperture": "f/2.0",
+        "video": "4K@30fps",
+        "features": [
+          "3D Face Unlock",
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7",
+        "bluetooth": "5.4, aptX HD, LDAC",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 3.2",
+        "infrared": true,
+        "satellite_messaging": true
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, ultrasonic)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Compass",
+          "Barometer"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "IR Blaster",
+          "Satellite Messaging",
+          "HONOR AI"
+        ]
+      },
+      "battery": {
+        "capacity": "5270 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "100W",
+        "wireless_charging": "80W",
+        "reverse_wireless": "10W",
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": true,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P017",
+      "brand_id": "B021",
+      "model_name": "Sony Xperia 1 VI",
+      "released": "2024-05-17",
+      "status": "Available",
+      "price_inr": 124900,
+      "price_usd": 1299,
+      "colors": [
+        "Black",
+        "Platinum Silver",
+        "Khaki Green"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "bands_4g": "Bands 1-5, 7, 8, 12, 13, 17-20, 25, 26, 28, 32, 34, 38-42, 46, 48, 66",
+        "bands_5g": "SA/NSA/Sub6/mmWave",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-05-15",
+        "status": "Available. Released 2024-05-17"
+      },
+      "body": {
+        "dimensions": "162 x 74 x 8.2 mm",
+        "weight": "192 g",
+        "build": "Gorilla Glass Victus 2 front and back, aluminum frame",
+        "sim": "Nano-SIM + eSIM",
+        "ip_rating": "IP65/68"
+      },
+      "display": {
+        "type": "OLED",
+        "size": "6.5 inches",
+        "resolution": "1080 x 2340 pixels",
+        "ppi": "~396 ppi",
+        "aspect_ratio": "19.5:9",
+        "refresh_rate": "1-120 Hz adaptive",
+        "brightness": "Varies (no peak nits disclosed)",
+        "protection": "Corning Gorilla Glass Victus 2",
+        "features": "HDR, Bravia XR, TRILUMINOS PRO"
+      },
+      "platform": {
+        "os": "Android 14",
+        "chipset": "Snapdragon 8 Gen 3 (4 nm)",
+        "cpu": "Octa-core (1x3.3 GHz Cortex-X4 + 3x3.2 GHz Cortex-A720 + 2x3.0 GHz Cortex-A720 + 2x2.3 GHz Cortex-A520)",
+        "gpu": "Adreno 750"
+      },
+      "memory": {
+        "ram_options": [
+          "12 GB"
+        ],
+        "storage_options": [
+          "256 GB",
+          "512 GB"
+        ],
+        "storage_type": "UFS 4.0",
+        "expandable": true
+      },
+      "camera_main": {
+        "configuration": "Triple (Zeiss tuned)",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 48,
+            "aperture": "f/1.9",
+            "focal_length": "24mm",
+            "ois": true,
+            "features": "PDAF, OIS, 1/1.35\" sensor"
+          },
+          {
+            "type": "Periscope Telephoto",
+            "megapixels": 12,
+            "aperture": "f/2.3-3.5",
+            "focal_length": "85-170mm (variable)",
+            "ois": true,
+            "features": "3.5-7.1x optical zoom, OIS"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 12,
+            "aperture": "f/2.2",
+            "focal_length": "16mm",
+            "ois": false,
+            "features": ""
+          }
+        ],
+        "video": "4K@120fps, 1080p@240fps, Log video",
+        "features": [
+          "Zeiss T* Optics",
+          "AI super resolution zoom",
+          "Photography Pro",
+          "Videography Pro",
+          "RAW",
+          "Cinema Pro"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 12,
+        "aperture": "f/2.0",
+        "video": "4K@60fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6/7",
+        "bluetooth": "5.4, A2DP, aptX, aptX HD, LDAC, LE Audio",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 3.2 Gen 2",
+        "infrared": false,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (side-mounted)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Barometer",
+          "Compass"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "3.5mm jack",
+          "Dedicated camera shutter button",
+          "microSD expansion",
+          "Headphone amplifier",
+          "360 Reality Audio"
+        ]
+      },
+      "battery": {
+        "capacity": "5000 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "30W",
+        "wireless_charging": "15W Qi",
+        "reverse_wireless": null,
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": true,
+        "dolby_atmos": false,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P018",
+      "brand_id": "B022",
+      "model_name": "Asus ROG Phone 9 Pro",
+      "released": "2024-12-12",
+      "status": "Available",
+      "price_inr": 109999,
+      "price_usd": 1199,
+      "colors": [
+        "Phantom Black",
+        "Matte White"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 850 / 900 / 1800 / 1900",
+        "bands_3g": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "bands_4g": "Bands 1-5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 38, 39, 40, 41, 66",
+        "bands_5g": "SA/NSA/Sub6/mmWave",
+        "speed": "LTE-A, 5G"
+      },
+      "launch": {
+        "announced": "2024-10-19",
+        "status": "Available. Released 2024-12-12"
+      },
+      "body": {
+        "dimensions": "163.8 x 76.8 x 8.9 mm",
+        "weight": "227 g",
+        "build": "Gorilla Glass Victus 2 front, aluminum frame, Gorilla Glass back",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": "IP68"
+      },
+      "display": {
+        "type": "AMOLED",
+        "size": "6.78 inches",
+        "resolution": "1080 x 2400 pixels",
+        "ppi": "~388 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "165 Hz",
+        "brightness": "2500 nits (peak)",
+        "protection": "Corning Gorilla Glass Victus 2",
+        "features": "HDR10+, 1ms response time, 720Hz touch sampling"
+      },
+      "platform": {
+        "os": "Android 15, ROG UI",
+        "chipset": "Snapdragon 8 Elite (3 nm)",
+        "cpu": "Octa-core (2x4.32 GHz Oryon V2 + 6x3.53 GHz Oryon V2)",
+        "gpu": "Adreno 830"
+      },
+      "memory": {
+        "ram_options": [
+          "16 GB",
+          "24 GB"
+        ],
+        "storage_options": [
+          "512 GB",
+          "1 TB"
+        ],
+        "storage_type": "UFS 4.0",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.9",
+            "focal_length": "24mm",
+            "ois": true,
+            "features": "PDAF, OIS"
+          },
+          {
+            "type": "Telephoto",
+            "megapixels": 32,
+            "aperture": "f/2.4",
+            "focal_length": "65mm",
+            "ois": true,
+            "features": "3x optical zoom"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 13,
+            "aperture": "f/2.2",
+            "focal_length": "13mm",
+            "ois": false,
+            "features": ""
+          }
+        ],
+        "video": "8K@24fps, 4K@60fps",
+        "features": [
+          "Night Mode",
+          "HDR",
+          "RAW"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 32,
+        "aperture": "f/2.0",
+        "video": "4K@30fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7",
+        "bluetooth": "5.4, aptX HD, LDAC",
+        "nfc": true,
+        "gps": "GPS, GLONASS, BDS, GALILEO",
+        "usb": "USB Type-C 3.2 Gen 2 (side + bottom)",
+        "infrared": false,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, optical)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity",
+          "Hall sensor"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "AeroActive Cooler compatible",
+          "Shoulder triggers (AirTriggers)",
+          "GameCool 9 cooling system",
+          "ROG Vision rear display",
+          "Dual USB-C ports"
+        ]
+      },
+      "battery": {
+        "capacity": "5800 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "65W HyperCharge",
+        "wireless_charging": null,
+        "reverse_wireless": null,
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": false,
+        "stereo_speakers": true
+      }
+    },
+    {
+      "phone_id": "P019",
+      "brand_id": "B015",
+      "model_name": "Lava Blaze Curve 5G",
+      "released": "2024-04-01",
+      "status": "Available",
+      "price_inr": 14999,
+      "price_usd": 179,
+      "colors": [
+        "Glass Blue",
+        "Glass Purple"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 900 / 1800",
+        "bands_3g": "HSDPA 900 / 2100",
+        "bands_4g": "Bands 1, 3, 5, 8, 28, 40, 41",
+        "bands_5g": "SA/NSA",
+        "speed": "LTE, 5G"
+      },
+      "launch": {
+        "announced": "2024-04-01",
+        "status": "Available. Released 2024-04-01"
+      },
+      "body": {
+        "dimensions": "165.5 x 76.1 x 8.0 mm",
+        "weight": "190 g",
+        "build": "Glass front and back, plastic frame",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": null
+      },
+      "display": {
+        "type": "AMOLED",
+        "size": "6.67 inches",
+        "resolution": "1080 x 2400 pixels",
+        "ppi": "~394 ppi",
+        "aspect_ratio": "20:9",
+        "refresh_rate": "90 Hz",
+        "brightness": "800 nits",
+        "protection": null,
+        "features": null
+      },
+      "platform": {
+        "os": "Android 14",
+        "chipset": "Dimensity 6080 (6 nm)",
+        "cpu": "Octa-core (2x2.4 GHz Cortex-A76 + 6x2.0 GHz Cortex-A55)",
+        "gpu": "Mali-G57 MC2"
+      },
+      "memory": {
+        "ram_options": [
+          "8 GB"
+        ],
+        "storage_options": [
+          "128 GB"
+        ],
+        "storage_type": "UFS 2.2",
+        "expandable": true
+      },
+      "camera_main": {
+        "configuration": "Dual",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 50,
+            "aperture": "f/1.8",
+            "focal_length": "26mm",
+            "ois": false,
+            "features": "PDAF"
+          },
+          {
+            "type": "Depth",
+            "megapixels": 2,
+            "aperture": "f/2.4",
+            "focal_length": "25mm",
+            "ois": false,
+            "features": ""
+          }
+        ],
+        "video": "1080p@30fps",
+        "features": [
+          "LED flash",
+          "Panorama",
+          "HDR"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 16,
+        "aperture": "f/2.0",
+        "video": "1080p@30fps",
+        "features": []
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+        "bluetooth": "5.3, A2DP, LE",
+        "nfc": false,
+        "gps": "GPS, GLONASS",
+        "usb": "USB Type-C 2.0",
+        "infrared": false,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, optical)",
+          "Accelerometer",
+          "Proximity"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "Made in India"
+        ]
+      },
+      "battery": {
+        "capacity": "5000 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "33W",
+        "wireless_charging": null,
+        "reverse_wireless": null,
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": true,
+        "dolby_atmos": false,
+        "stereo_speakers": false
+      }
+    },
+    {
+      "phone_id": "P020",
+      "brand_id": "B018",
+      "model_name": "Infinix GT 20 Pro",
+      "released": "2024-05-14",
+      "status": "Available",
+      "price_inr": 22999,
+      "price_usd": 279,
+      "colors": [
+        "Cyber Black",
+        "Mirage Silver",
+        "Volcano Orange"
+      ],
+      "network": {
+        "technology": "GSM / HSPA / LTE / 5G",
+        "bands_2g": "GSM 900 / 1800",
+        "bands_3g": "HSDPA 900 / 2100",
+        "bands_4g": "Bands 1, 3, 5, 7, 8, 20, 28, 38, 40, 41",
+        "bands_5g": "SA/NSA",
+        "speed": "LTE, 5G"
+      },
+      "launch": {
+        "announced": "2024-05-14",
+        "status": "Available. Released 2024-05-14"
+      },
+      "body": {
+        "dimensions": "164.2 x 75.7 x 7.7 mm",
+        "weight": "185 g",
+        "build": "Glass front, plastic back and frame",
+        "sim": "Nano-SIM + Nano-SIM",
+        "ip_rating": null
+      },
+      "display": {
+        "type": "AMOLED",
+        "size": "6.78 inches",
+        "resolution": "1080 x 2436 pixels",
+        "ppi": "~393 ppi",
+        "aspect_ratio": "20.3:9",
+        "refresh_rate": "144 Hz",
+        "brightness": "1300 nits (peak)",
+        "protection": null,
+        "features": "HDR10, 360Hz touch sampling"
+      },
+      "platform": {
+        "os": "Android 14, XOS 14",
+        "chipset": "Dimensity 8200 Ultimate (4 nm)",
+        "cpu": "Octa-core (1x3.1 GHz Cortex-A78 + 3x3.0 GHz Cortex-A78 + 4x2.0 GHz Cortex-A55)",
+        "gpu": "Mali-G610 MC6"
+      },
+      "memory": {
+        "ram_options": [
+          "8 GB",
+          "12 GB"
+        ],
+        "storage_options": [
+          "256 GB"
+        ],
+        "storage_type": "UFS 3.1",
+        "expandable": false
+      },
+      "camera_main": {
+        "configuration": "Triple",
+        "sensors": [
+          {
+            "type": "Wide",
+            "megapixels": 108,
+            "aperture": "f/1.75",
+            "focal_length": "26mm",
+            "ois": false,
+            "features": "PDAF"
+          },
+          {
+            "type": "Ultrawide",
+            "megapixels": 13,
+            "aperture": "f/2.2",
+            "focal_length": "15mm",
+            "ois": false,
+            "features": ""
+          },
+          {
+            "type": "Macro",
+            "megapixels": 2,
+            "aperture": "f/2.4",
+            "focal_length": "25mm",
+            "ois": false,
+            "features": ""
+          }
+        ],
+        "video": "4K@30fps, 1080p@60fps",
+        "features": [
+          "Night Mode",
+          "HDR",
+          "AI Scene Detection"
+        ]
+      },
+      "camera_front": {
+        "megapixels": 32,
+        "aperture": "f/2.45",
+        "video": "1080p@30fps",
+        "features": [
+          "HDR"
+        ]
+      },
+      "connectivity": {
+        "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6",
+        "bluetooth": "5.3, A2DP, LE",
+        "nfc": false,
+        "gps": "GPS, GLONASS, BDS",
+        "usb": "USB Type-C 2.0",
+        "infrared": false,
+        "satellite_messaging": false
+      },
+      "features": {
+        "sensors": [
+          "Fingerprint (under display, optical)",
+          "Accelerometer",
+          "Gyroscope",
+          "Proximity"
+        ],
+        "stylus": null,
+        "face_recognition": true,
+        "other": [
+          "Gaming GT mode",
+          "Bypass charging",
+          "Dedicated gaming triggers"
+        ]
+      },
+      "battery": {
+        "capacity": "5000 mAh",
+        "type": "Li-Ion",
+        "wired_charging": "68W",
+        "wireless_charging": null,
+        "reverse_wireless": null,
+        "fast_charge": true
+      },
+      "audio": {
+        "loudspeaker": true,
+        "jack_3_5mm": false,
+        "dolby_atmos": false,
+        "stereo_speakers": true
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "review_id": "R001",
+      "phone_id": "P001",
+      "reviewer_name": "Arjun Mehta",
+      "rating": 4.8,
+      "date": "2025-02-10",
+      "title": "The best Android phone money can buy",
+      "body": "The S25 Ultra is a masterpiece. The Snapdragon 8 Elite is blazing fast, the S Pen is as useful as ever, and the camera system — especially that 200MP main sensor — is simply unbeatable in daylight. Night photography has also improved dramatically over the S24 Ultra. Battery life easily lasts a full day with heavy use. My only gripe is the weight at 218g and the price, but you get what you pay for.",
+      "pros": [
+        "Incredible camera system",
+        "S Pen productivity",
+        "Performance beast",
+        "Bright display"
+      ],
+      "cons": [
+        "Very expensive",
+        "Heavy",
+        "No charger in box"
+      ]
+    },
+    {
+      "review_id": "R002",
+      "phone_id": "P001",
+      "reviewer_name": "Priya Nair",
+      "rating": 4.5,
+      "date": "2025-02-14",
+      "title": "Photography pro in your pocket",
+      "body": "I switched from the iPhone 15 Pro Max to the S25 Ultra and I am not going back. The 10x zoom is incredible for concert photography — I can capture details from the back row that my friends with other phones simply cannot. The display is the best I have seen on any smartphone. The AI features (Galaxy AI) are genuinely useful, not just gimmicks. However, Samsung's software can be bloaty and the thermal management could be better during gaming sessions.",
+      "pros": [
+        "Best zoom camera system",
+        "Stunning 6.9\" QHD display",
+        "Galaxy AI features",
+        "S Pen included"
+      ],
+      "cons": [
+        "Software bloat",
+        "Gets warm under load",
+        "Slow wireless charging vs competitors"
+      ]
+    },
+    {
+      "review_id": "R003",
+      "phone_id": "P001",
+      "reviewer_name": "Vikram Rao",
+      "rating": 4.6,
+      "date": "2025-02-20",
+      "title": "Worth every rupee for power users",
+      "body": "Three weeks in and the S25 Ultra continues to impress. DeX mode for desktop productivity is underrated — I use it with my monitor and wireless keyboard and it replaces my laptop for most tasks. The build quality with titanium feels premium. Satellite messaging works great in areas without signal. The 45W charging is a bit slow for a flagship in 2025 though.",
+      "pros": [
+        "Samsung DeX desktop mode",
+        "Titanium build quality",
+        "Satellite connectivity",
+        "7 years updates"
+      ],
+      "cons": [
+        "45W wired charging is slow for flagship",
+        "Large footprint"
+      ]
+    },
+    {
+      "review_id": "R004",
+      "phone_id": "P001",
+      "reviewer_name": "Sneha Iyer",
+      "rating": 4.3,
+      "date": "2025-03-01",
+      "title": "Great phone, but the price is steep",
+      "body": "Undeniably the best Android flagship in 2025. Camera, performance, display — nothing tops it. But at ₹1.35 lakh, you really have to justify the spend. Compared to the OnePlus 13 at ₹70k, it's hard to recommend unless you need the S Pen or that specific zoom range. The one UI experience is clean if you take the time to remove bloatware.",
+      "pros": [
+        "Top-tier everything",
+        "Unique S Pen use case",
+        "Long software support"
+      ],
+      "cons": [
+        "Extremely expensive",
+        "Competitors offer 90% for 50% less"
+      ]
+    },
+    {
+      "review_id": "R005",
+      "phone_id": "P003",
+      "reviewer_name": "Rahul Verma",
+      "rating": 4.9,
+      "date": "2024-10-05",
+      "title": "iPhone perfection, but not cheap",
+      "body": "The A18 Pro chip makes everything feel instantaneous. The Camera Control button is more useful than I expected — it's become my default way to open the camera. The 5x periscope zoom is incredible, the 48MP ultrawide with autofocus makes macro photography easy, and Cinematic mode for video is still unmatched in the Android world. iOS 18 is polished and the 7-year update promise gives me peace of mind for a long-term investment.",
+      "pros": [
+        "A18 Pro chip dominates benchmarks",
+        "Exceptional video capabilities",
+        "Camera Control button",
+        "7-year update promise"
+      ],
+      "cons": [
+        "Most expensive phone on this list",
+        "USB-C 3.2 should be Thunderbolt",
+        "MagSafe charger sold separately"
+      ]
+    },
+    {
+      "review_id": "R006",
+      "phone_id": "P003",
+      "reviewer_name": "Ananya Singh",
+      "rating": 4.7,
+      "date": "2024-10-12",
+      "title": "The video creator's dream phone",
+      "body": "I shoot short films and travel content and the iPhone 16 Pro Max is an absolute beast. 4K@120fps ProRes LOG is a game changer for post production. The stabilisation rivals a gimbal. The only frustrations are the lack of a zoom indicator on the physical Camera Control (it's not tactile enough) and the price which is hard to justify as an upgrade from the 15 Pro Max unless you specifically need the better ultrawide or 120fps ProRes.",
+      "pros": [
+        "Best video recording on any phone",
+        "ProRes LOG recording",
+        "Log format for colour grading",
+        "Premium build"
+      ],
+      "cons": [
+        "Very incremental upgrade from 15 Pro Max",
+        "Camera Control button needs iteration"
+      ]
+    },
+    {
+      "review_id": "R007",
+      "phone_id": "P003",
+      "reviewer_name": "Karan Mehta",
+      "rating": 4.6,
+      "date": "2024-11-01",
+      "title": "Switched from Android — no regrets",
+      "body": "Long-time Android user who finally switched. The ecosystem lock-in is real but so is the polish. My MacBook, iPad and iPhone now work seamlessly together. AirDrop, Handoff, and Universal Clipboard save me time every day. The battery life on the 16 Pro Max is the best Apple has ever shipped — I consistently hit two days with moderate use. The Action button replacing the silent switch takes getting used to.",
+      "pros": [
+        "Apple ecosystem integration",
+        "Best iPhone battery ever",
+        "Polished iOS experience",
+        "Resale value"
+      ],
+      "cons": [
+        "Expensive accessories",
+        "Ecosystem lock-in",
+        "Action button learning curve"
+      ]
+    },
+    {
+      "review_id": "R008",
+      "phone_id": "P004",
+      "reviewer_name": "Deepak Sharma",
+      "rating": 4.7,
+      "date": "2025-02-01",
+      "title": "The value flagship of 2025",
+      "body": "The OnePlus 13 packs essentially everything you get from a ₹1.3 lakh Samsung at ₹70k. Snapdragon 8 Elite, 6000mAh battery, 100W charging, Hasselblad cameras — this phone has it all. The battery is extraordinary; I cannot kill it in a single day even with gaming. OxygenOS 15 is clean and fast. The only real compromise vs the Samsung S25 Ultra is no S Pen and less refined zoom range.",
+      "pros": [
+        "Incredible value",
+        "6000mAh battery + 100W charging",
+        "Hasselblad camera quality",
+        "Bright 4500-nit display"
+      ],
+      "cons": [
+        "No wireless charging on base model — wait, it does have 50W wireless",
+        "Alert slider divisive for some",
+        "Zoom not as versatile as S25 Ultra"
+      ]
+    },
+    {
+      "review_id": "R009",
+      "phone_id": "P004",
+      "reviewer_name": "Meera Krishnan",
+      "rating": 4.6,
+      "date": "2025-02-10",
+      "title": "Hasselblad cameras are not a gimmick",
+      "body": "I was skeptical about the Hasselblad partnership but after using the OnePlus 13 for three weeks, the colours are genuinely different — warmer, more film-like, less processed than Samsung or Google. The XPan mode that gives you a cinematic wide aspect ratio is stunning for landscape photography. OxygenOS is still my favourite Android skin — closest to stock Android with useful extras like the Alert Slider.",
+      "pros": [
+        "Hasselblad Natural Colour Calibration",
+        "Alert Slider unique feature",
+        "Clean OxygenOS",
+        "Massive battery"
+      ],
+      "cons": [
+        "No satellite messaging",
+        "Camera app can be slow to launch sometimes"
+      ]
+    },
+    {
+      "review_id": "R010",
+      "phone_id": "P004",
+      "reviewer_name": "Rohit Gupta",
+      "rating": 4.5,
+      "date": "2025-02-18",
+      "title": "Best Android phone under ₹80k",
+      "body": "Simple verdict: if you want the best Android experience under ₹80,000, buy the OnePlus 13. Flagship chip, 50W wireless charging, IP65 water resistance, 1440p QHD display and Hasselblad cameras. The competition at this price (iQOO 13, Pixel 9 Pro) each do some things better but none does everything as well as the OnePlus 13.",
+      "pros": [
+        "Best all-rounder under 80k",
+        "QHD 1440p display",
+        "100W + 50W wireless",
+        "Great ergonomics"
+      ],
+      "cons": [
+        "IP65 not IP68 like some competitors",
+        "No periscope on the main telephoto"
+      ]
+    },
+    {
+      "review_id": "R011",
+      "phone_id": "P007",
+      "reviewer_name": "Aditya Kumar",
+      "rating": 4.6,
+      "date": "2025-01-05",
+      "title": "Flagship killer for real this time",
+      "body": "The Realme GT 7 Pro is the most underrated phone in India right now. 6000 nit display — brighter than any phone I have ever used — Snapdragon 8 Elite, 6500mAh battery, 120W charging and IP69 (not just IP68). It gets dusty in marketing but this thing is genuinely water resistant against pressurised water. The Mars Orange vegan leather back feels and looks incredible.",
+      "pros": [
+        "6000 nit display — brightest on any phone",
+        "IP69 (water jet resistant)",
+        "6500mAh huge battery",
+        "120W fast charging"
+      ],
+      "cons": [
+        "Camera loses to vivo and Samsung at this price",
+        "Software (realme UI) less polished than OxygenOS",
+        "Bulky"
+      ]
+    },
+    {
+      "review_id": "R012",
+      "phone_id": "P007",
+      "reviewer_name": "Tanvi Patel",
+      "rating": 4.4,
+      "date": "2025-01-12",
+      "title": "Ridiculous display, average cameras",
+      "body": "The display on the GT 7 Pro is mind-bending — 6000 nits in direct sunlight makes every other phone look dim. Gaming is buttery smooth. But I wish the camera matched the display quality. The main sensor is good but the ultrawide is mediocre and there's no dedicated macro or depth sensor. The periscope zoom is fine but realme's processing algorithm adds too much noise reduction and detail smoothing.",
+      "pros": [
+        "Display is in a class of its own",
+        "Snapdragon 8 Elite performance",
+        "Amazing battery life"
+      ],
+      "cons": [
+        "Camera processing too aggressive",
+        "realme UI has unnecessary features",
+        "No wireless charging"
+      ]
+    },
+    {
+      "review_id": "R013",
+      "phone_id": "P013",
+      "reviewer_name": "Zara Ahmed",
+      "rating": 4.4,
+      "date": "2025-03-15",
+      "title": "The most fun phone at this price",
+      "body": "Nothing has nailed the sweet spot at ₹30k. The Glyph Interface is genuinely useful once you set it up — I use different Glyph patterns for different contacts and apps and I haven't picked up my phone unnecessarily in weeks. The triple camera with the 2x dedicated telephoto is unique at this price point. Nothing OS feels like what Android should be — no bloat, beautiful typography, thoughtful design.",
+      "pros": [
+        "Glyph Interface genuinely useful",
+        "Unique transparent design",
+        "Clean Nothing OS",
+        "Dedicated 2x telephoto at ₹30k"
+      ],
+      "cons": [
+        "Not the fastest at this price (Dimensity 8400 devices are faster)",
+        "IP64 not IP67/68",
+        "No wireless charging"
+      ]
+    },
+    {
+      "review_id": "R014",
+      "phone_id": "P013",
+      "reviewer_name": "Rahul Nair",
+      "rating": 4.3,
+      "date": "2025-03-20",
+      "title": "Design-forward phone that doesn't sacrifice function",
+      "body": "Phone (3a) Pro looks like nothing else on the market. The transparent back with the Glyph lights is a conversation starter every time. But the real surprise is how competent the cameras are — the 2x telephoto produces noticeably better portraits than the digital zoom on phones like Redmi Note 14 Pro+. Essential Space AI assistant is still in early days but shows promise.",
+      "pros": [
+        "Iconic design",
+        "Good camera for the price",
+        "Snapdragon 7s Gen 3 efficient",
+        "Side fingerprint fast"
+      ],
+      "cons": [
+        "Essential Space AI still immature",
+        "No NFC on base model (3a Pro has it)",
+        "50W charging is not the fastest at ₹30k"
+      ]
+    },
+    {
+      "review_id": "R015",
+      "phone_id": "P014",
+      "reviewer_name": "Priyanka Bose",
+      "rating": 4.7,
+      "date": "2024-09-10",
+      "title": "Google AI makes this phone feel magical",
+      "body": "The Pixel 9 Pro XL is Google's best phone ever. The AI features — Magic Eraser, Photo Unblur, Best Take, Add Me, Video Boost — aren't gimmicks. I use them almost every day. The camera quality in all conditions (low light, portrait, zoom) is outstanding. Seven years of guaranteed OS and security updates means I can keep this phone until 2031. The Titan M2 security chip makes me confident about mobile banking and payments.",
+      "pros": [
+        "Best AI photography features",
+        "7 years updates",
+        "Tensor G4 efficient for AI",
+        "Excellent low light photography"
+      ],
+      "cons": [
+        "Tensor G4 slower than Snapdragon in benchmarks",
+        "37W wired charging slow for flagship",
+        "Price high for Tensor performance"
+      ]
+    },
+    {
+      "review_id": "R016",
+      "phone_id": "P014",
+      "reviewer_name": "Siddharth Rao",
+      "rating": 4.5,
+      "date": "2024-09-20",
+      "title": "Best camera phone for real-world photography",
+      "body": "I've compared the Pixel 9 Pro XL extensively with the iPhone 16 Pro Max. For still photography in real-world scenarios (not studio benchmarks), the Pixel wins — skin tones are better, dynamic range is superior and the ultrawide with macro autofocus is the most versatile I've used. The Gemini AI integration is miles ahead of anything else. The Tensor G4 is efficient rather than peak-performance — great for battery, less so for gaming.",
+      "pros": [
+        "Best still photography",
+        "Gemini AI integration",
+        "Best ultrawide with macro",
+        "Clean Android 14/15"
+      ],
+      "cons": [
+        "Tensor G4 not gaming-grade",
+        "Expensive for the chipset tier",
+        "Smaller battery than competitors"
+      ]
+    },
+    {
+      "review_id": "R017",
+      "phone_id": "P011",
+      "reviewer_name": "Nikhil Joshi",
+      "rating": 4.7,
+      "date": "2025-01-20",
+      "title": "Gaming flagship at a fair price",
+      "body": "The iQOO 13 is the go-to gaming phone for people who don't want to compromise on everyday usability. The V3+ chip alongside the Snapdragon 8 Elite gives frame rate stability in BGMI and Call of Duty that no other phone at this price can match. 144Hz refresh rate, 720Hz touch sampling — inputs register almost instantly. The BMW M Performance Edition is genuinely the coolest-looking phone in India right now.",
+      "pros": [
+        "Unbeatable gaming performance",
+        "V3+ gaming chip",
+        "144Hz + 720Hz touch sampling",
+        "120W fast charging",
+        "IP68 + IP69"
+      ],
+      "cons": [
+        "Camera not as strong as OnePlus 13 or Vivo X200 Pro at this tier",
+        "Funtouch OS not as clean as OxygenOS",
+        "Heavier than it should be"
+      ]
+    },
+    {
+      "review_id": "R018",
+      "phone_id": "P011",
+      "reviewer_name": "Shreya Menon",
+      "rating": 4.5,
+      "date": "2025-01-28",
+      "title": "Best performance phone under ₹60k",
+      "body": "Pure numbers: iQOO 13 wins almost every benchmark at this price. AnTuTu scores above 2.8 million, sustained performance without throttling, 120W charging from 0-100 in 26 minutes. The Zeiss-tuned cameras are surprisingly good for a gaming phone — portrait shots look fantastic. My only complaint is the OriginOS/Funtouch OS which lags behind Samsung and OnePlus in polish.",
+      "pros": [
+        "Benchmark king under ₹60k",
+        "120W charges in 26 min",
+        "Zeiss cameras better than expected",
+        "Excellent build quality"
+      ],
+      "cons": [
+        "Software behind competitors",
+        "No periscope zoom"
+      ]
+    },
+    {
+      "review_id": "R019",
+      "phone_id": "P008",
+      "reviewer_name": "Aryan Kapoor",
+      "rating": 4.8,
+      "date": "2024-11-15",
+      "title": "Zeiss + Dimensity 9400 is a killer combination",
+      "body": "The Vivo X200 Pro is quietly the best camera phone in India right now. The 200MP periscope telephoto is unlike anything else — I shot detailed photos of birds at 100x digital zoom that looked publishable. The Dimensity 9400 runs cooler than the Snapdragon 8 Elite under sustained loads. Dual IP68+IP69 certification, 90W + 30W wireless, and 6000mAh battery. I don't understand why this phone doesn't get more attention.",
+      "pros": [
+        "200MP periscope telephoto unique",
+        "Dimensity 9400 runs cooler",
+        "Dual IP68+IP69",
+        "6000mAh battery"
+      ],
+      "cons": [
+        "Relatively unknown brand for premium segment",
+        "OriginOS software learning curve",
+        "Chunky at 229g"
+      ]
+    },
+    {
+      "review_id": "R020",
+      "phone_id": "P008",
+      "reviewer_name": "Kavitha Reddy",
+      "rating": 4.6,
+      "date": "2024-11-25",
+      "title": "The best phone nobody is talking about",
+      "body": "Vivo's X200 Pro deserves way more hype. The Dimensity 9400 is more efficient than the Snapdragon 8 Elite — my phone runs cooler and the battery lasts longer. The ultrawide camera with autofocus gives incredible architectural shots and the Zeiss portrait processing produces the most flattering skin tones of any Android phone I've tested. Software (Funtouch 15) has improved significantly but still not at OnePlus or Google levels.",
+      "pros": [
+        "Efficient Dimensity 9400 chipset",
+        "Best ultrawide camera",
+        "Zeiss portrait processing",
+        "Fast and wireless charging combo"
+      ],
+      "cons": [
+        "Funtouch OS improvement needed",
+        "Not as widely available",
+        "Camera app UI cluttered"
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-10T03:22:44.467Z",
+    "total_brands": 22,
+    "total_phones": 20,
+    "total_reviews": 20,
+    "version": "1.0.0",
+    "description": "PhoneGuru India smartphone dataset — GSM Arena style specs, current Indian market prices, and user reviews",
+    "currency": "INR (prices as of Q1 2025)",
+    "fields_per_phone": [
+      "network",
+      "launch",
+      "body",
+      "display",
+      "platform",
+      "memory",
+      "camera_main",
+      "camera_front",
+      "connectivity",
+      "features",
+      "battery",
+      "audio"
+    ]
+  }
+}

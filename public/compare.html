@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phone Comparison</title>
+<link rel="stylesheet" href="compare_style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📱 Phone Compare</h1>
+</header>
+
+<section class="selector">
+    <div>
+        <label>Phone 1</label>
+        <select id="phone1"></select>
+    </div>
+
+    <div>
+        <label>Phone 2</label>
+        <select id="phone2"></select>
+    </div>
+</section>
+
+<section class="comparison">
+    <table>
+        <thead>
+            <tr>
+                <th>Specs</th>
+                <th id="p1-name">Phone 1</th>
+                <th id="p2-name">Phone 2</th>
+            </tr>
+        </thead>
+        <tbody id="compare-body">
+        </tbody>
+    </table>
+</section>
+
+<section class="reviews">
+    <div class="review-box">
+        <h2>Reviews - Phone 1</h2>
+        <ul id="reviews1"></ul>
+    </div>
+
+    <div class="review-box">
+        <h2>Reviews - Phone 2</h2>
+        <ul id="reviews2"></ul>
+    </div>
+</section>
+<script src="compare_script.js"></script>
+</body>
+</html>

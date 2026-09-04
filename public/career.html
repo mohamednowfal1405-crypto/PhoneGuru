@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Careers | PhoneGuru</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'DM Sans', sans-serif;
+background: radial-gradient(circle at top, #05070f, #000000);
+color:#e5e7eb;
+}
+
+/* NAVBAR */
+.navbar{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(10,10,15,0.7);
+backdrop-filter:blur(12px);
+padding:18px 0;
+z-index:1000;
+border-bottom:1px solid rgba(255,255,255,0.05);
+}
+
+.nav-container{
+padding:0 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:#fff;
+font-size:22px;
+font-family:'Syne', sans-serif;
+font-weight:700;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:25px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#cbd5e1;
+padding:8px 14px;
+border-radius:8px;
+transition:0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active{
+background:rgba(255,255,255,0.08);
+color:#fff;
+}
+
+/* HERO */
+.hero{
+margin-top:110px;
+text-align:center;
+padding:90px 20px;
+}
+
+.hero h1{
+font-family:'Syne', sans-serif;
+font-size:64px;
+font-weight:800;
+background:linear-gradient(90deg,#22d3ee,#818cf8);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero p{
+font-size:20px;
+color:#94a3b8;
+margin-top:15px;
+}
+
+/* SECTION TITLE */
+.section-title{
+text-align:center;
+font-family:'Syne', sans-serif;
+font-size:40px;
+margin-bottom:30px;
+}
+
+/* CONTAINER */
+.container{
+width:90%;
+max-width:900px;
+margin:60px auto;
+}
+
+/* JOB CARDS */
+.jobs{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.job-card{
+display:block;
+text-decoration:none;
+color:inherit;
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.08);
+padding:25px;
+border-radius:14px;
+transition:0.35s;
+backdrop-filter:blur(10px);
+}
+
+.job-card:hover{
+transform:translateY(-6px);
+border-color:#22d3ee;
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+
+.job-card h3{
+font-size:22px;
+color:#22d3ee;
+margin-bottom:8px;
+}
+
+.job-card p{
+color:#cbd5e1;
+}
+
+/* APPLICATION */
+.application{
+margin-top:60px;
+background:rgba(255,255,255,0.05);
+padding:30px;
+border-radius:16px;
+border:1px solid rgba(255,255,255,0.08);
+backdrop-filter:blur(12px);
+}
+
+.application h2{
+font-family:'Syne', sans-serif;
+margin-bottom:10px;
+}
+
+.application h3{
+color:#94a3b8;
+margin-bottom:20px;
+}
+
+/* FORM */
+.form-group{
+margin-bottom:15px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+width:100%;
+padding:12px;
+border-radius:8px;
+border:1px solid rgba(255,255,255,0.1);
+background:#020617;
+color:#fff;
+outline:none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus{
+border-color:#22d3ee;
+}
+
+/* BUTTON */
+.submit-btn{
+width:100%;
+background:linear-gradient(135deg,#22d3ee,#818cf8);
+color:white;
+border:none;
+padding:12px;
+border-radius:10px;
+cursor:pointer;
+font-weight:600;
+transition:0.3s;
+}
+
+.submit-btn:hover{
+transform:scale(1.03);
+box-shadow:0 10px 20px rgba(34,211,238,0.3);
+}
+
+/* FOOTER */
+footer{
+margin-top:60px;
+text-align:center;
+padding:20px;
+color:#94a3b8;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+<div class="nav-container">
+<div class="logo">PhoneGuru</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="compare.html">Compare</a></li>
+<li><a href="careers.html" class="active">Careers</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<div class="hero">
+<h1>Careers at PhoneGuru</h1>
+<p>Join our mission to help users discover their perfect smartphone.</p>
+</div>
+
+<div class="container">
+
+<h2 class="section-title">Current Openings</h2>
+
+<div class="jobs">
+
+<a href="frontend_dev.html" class="job-card">
+<h3>Frontend Developer</h3>
+<p>Build responsive UI • Improve UX</p>
+</a>
+
+<a href="backend_dev.html" class="job-card">
+<h3>Backend Developer</h3>
+<p>Build APIs • Manage database</p>
+</a>
+
+<a href="uiux_designer.html" class="job-card">
+<h3>UI/UX Designer</h3>
+<p>Design interfaces • User research</p>
+</a>
+
+<a href="data_analyst.html" class="job-card">
+<h3>Data Analyst</h3>
+<p>Analyze data • Generate insights</p>
+</a>
+
+<a href="content_writer.html" class="job-card">
+<h3>Mobile Technology Content Writer</h3>
+<p>Analyes Phone Specs • Generate Buying Guides</p>
+</a>
+
+</div>
+
+<div class="application">
+
+<h2>Can't find an apt Position open for you?</h2>
+<h3>Dont Worry, we have got you covered!</h3>
+
+<div class="form-group">
+<input type="text" placeholder="Full Name">
+</div>
+
+<div class="form-group">
+<input type="email" placeholder="Email">
+</div>
+
+<div class="form-group">
+<input type="file">
+</div>
+
+<div class="form-group">
+<textarea placeholder="Message"></textarea>
+</div>
+
+<button class="submit-btn" onclick="submitApplication()">Submit</button>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 PhoneGuru</p>
+</footer>
+
+<script>
+function submitApplication(){
+alert("Application submitted (demo)");
+}
+</script>
+
+</body>
+</html>

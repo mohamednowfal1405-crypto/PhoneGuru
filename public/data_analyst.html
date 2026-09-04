@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Data Analyst – PhoneGuru Careers</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0a0a0f;
+    --surface: #111118;
+    --surface2: #18181f;
+    --border: rgba(255,255,255,0.07);
+    --border-hover: rgba(255,255,255,0.15);
+    --accent: #00e5ff;
+    --accent2: #7b61ff;
+    --text: #f0f0f5;
+    --muted: #8888aa;
+    --tag-bg: rgba(0,229,255,0.08);
+    --tag-color: #00e5ff;
+    --radius: 14px;
+    --radius-sm: 8px;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    line-height: 1.7;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(10,10,15,0.85);
+    backdrop-filter: blur(18px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 4rem;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-logo {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 1.3rem;
+    letter-spacing: -0.03em;
+    color: var(--text);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-logo-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 10px var(--accent);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%,100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(0.85); }
+  }
+
+  .nav-breadcrumb {
+    font-size: 0.82rem;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .nav-breadcrumb a { color: var(--muted); text-decoration: none; }
+  .nav-breadcrumb a:hover { color: var(--text); }
+  .nav-breadcrumb .sep { opacity: 0.4; }
+
+  .hero {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 4rem 5rem 2.5rem;
+  }
+
+  .job-category {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--tag-bg);
+    border: 1px solid rgba(0,229,255,0.2);
+    padding: 5px 14px;
+    border-radius: 100px;
+    margin-bottom: 1.4rem;
+  }
+
+  .job-title {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2.4rem, 5.5vw, 4rem);
+    line-height: 1.08;
+    letter-spacing: -0.04em;
+    margin-bottom: 1.2rem;
+    background: linear-gradient(135deg, #f0f0f5 60%, #00e5ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .job-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .meta-pill {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.88rem;
+    color: var(--muted);
+  }
+
+  .meta-pill svg { opacity: 0.6; flex-shrink: 0; }
+
+  .salary-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: linear-gradient(135deg, rgba(123,97,255,0.15), rgba(0,229,255,0.1));
+    border: 1px solid rgba(123,97,255,0.3);
+    border-radius: 100px;
+    padding: 7px 18px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #c4b8ff;
+    margin-top: 0.4rem;
+  }
+
+  .page-body {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5rem 6rem;
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  @media (max-width: 1200px) {
+    .page-body { max-width: 1100px; padding: 0 3.5rem 6rem; grid-template-columns: 1fr 340px; }
+  }
+
+  @media (max-width: 900px) {
+    .page-body { grid-template-columns: 1fr; padding: 0 1.5rem 4rem; }
+    .apply-sidebar { order: -1; }
+  }
+
+  .section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 2.25rem 2.5rem;
+    margin-bottom: 1.25rem;
+    transition: border-color 0.2s;
+  }
+
+  .section:hover { border-color: var(--border-hover); }
+
+  .section-label {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+  }
+
+  .section h2 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+
+  .section p {
+    color: #cccce0;
+    font-size: 0.97rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .section p:last-child { margin-bottom: 0; }
+
+  .styled-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .styled-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.93rem;
+    color: #cccce0;
+  }
+
+  .styled-list li::before {
+    content: '';
+    flex-shrink: 0;
+    margin-top: 8px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 6px var(--accent);
+  }
+
+  .tags-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 0.2rem;
+  }
+
+  .tag {
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 5px 14px;
+    border-radius: var(--radius-sm);
+    background: var(--tag-bg);
+    color: var(--tag-color);
+    border: 1px solid rgba(0,229,255,0.15);
+    letter-spacing: 0.01em;
+  }
+
+  .tag.purple {
+    background: rgba(123,97,255,0.1);
+    color: #b8abff;
+    border-color: rgba(123,97,255,0.2);
+  }
+
+  .apply-sidebar {
+    position: sticky;
+    top: 84px;
+  }
+
+  .apply-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  .apply-card-header {
+    background: linear-gradient(135deg, rgba(0,229,255,0.08), rgba(123,97,255,0.08));
+    border-bottom: 1px solid var(--border);
+    padding: 1.75rem 2rem 1.4rem;
+  }
+
+  .apply-card-header h3 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.3rem;
+  }
+
+  .apply-card-header p {
+    font-size: 0.83rem;
+    color: var(--muted);
+  }
+
+  .apply-form {
+    padding: 1.75rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+
+  .field-group { display: flex; flex-direction: column; gap: 5px; }
+
+  .field-group label {
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .field-group input,
+  .field-group textarea {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    padding: 10px 13px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    resize: none;
+    width: 100%;
+  }
+
+  .field-group input:focus,
+  .field-group textarea:focus {
+    border-color: rgba(0,229,255,0.4);
+    box-shadow: 0 0 0 3px rgba(0,229,255,0.07);
+  }
+
+  .field-group input::placeholder,
+  .field-group textarea::placeholder { color: rgba(136,136,170,0.6); }
+
+  .upload-zone {
+    background: var(--surface2);
+    border: 1.5px dashed rgba(0,229,255,0.2);
+    border-radius: var(--radius-sm);
+    padding: 1.4rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    position: relative;
+  }
+
+  .upload-zone:hover, .upload-zone.drag-over {
+    border-color: rgba(0,229,255,0.5);
+    background: rgba(0,229,255,0.04);
+  }
+
+  .upload-zone input[type="file"] {
+    position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;
+  }
+
+  .upload-icon {
+    width: 32px; height: 32px;
+    margin: 0 auto 8px;
+    border-radius: 8px;
+    background: rgba(0,229,255,0.1);
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  .upload-text { font-size: 0.82rem; color: var(--muted); }
+  .upload-text strong { color: var(--accent); font-weight: 500; }
+  .upload-formats { font-size: 0.73rem; color: rgba(136,136,170,0.55); margin-top: 3px; }
+
+  .file-selected {
+    font-size: 0.82rem;
+    color: #00e5ff;
+    margin-top: 6px;
+    display: none;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .file-selected.visible { display: flex; }
+
+  .btn-apply {
+    width: 100%;
+    padding: 13px;
+    border-radius: var(--radius-sm);
+    border: none;
+    background: linear-gradient(135deg, #00c4d9, #7b61ff);
+    color: #fff;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.15s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn-apply:hover { opacity: 0.9; transform: translateY(-1px); }
+  .btn-apply:active { transform: translateY(0); }
+
+  .btn-apply::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: rgba(255,255,255,0.08);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  .btn-apply:hover::after { opacity: 1; }
+
+  .apply-success {
+    display: none;
+    padding: 2rem 1.75rem;
+    text-align: center;
+  }
+
+  .apply-success.visible { display: block; }
+  .apply-form.hidden { display: none; }
+
+  .success-icon {
+    width: 52px; height: 52px;
+    border-radius: 50%;
+    background: rgba(0,229,255,0.1);
+    border: 1px solid rgba(0,229,255,0.3);
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 1rem;
+  }
+
+  .apply-success h4 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .apply-success p {
+    font-size: 0.85rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .deadline-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 2rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  .deadline-bar span:last-child { color: #f5a623; font-weight: 500; }
+
+  hr.divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.2rem 0;
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-decoration: none;
+    margin-bottom: 2rem;
+    transition: color 0.2s;
+  }
+
+  .back-link:hover { color: var(--text); }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="career.html">
+    <div class="nav-logo-dot"></div>
+    PhoneGuru
+  </a>
+  <div class="nav-breadcrumb">
+    <a href="career.html">Careers</a>
+    <span class="sep">›</span>
+    <span>Data</span>
+    <span class="sep">›</span>
+    <span>Data Analyst</span>
+  </div>
+</nav>
+
+<div class="hero">
+  <a href="career.html" class="back-link">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 12L6 8l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Back to all openings
+  </a>
+
+  <div class="job-category">
+    <svg width="10" height="10" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5" fill="currentColor"/></svg>
+    Data
+  </div>
+
+  <h1 class="job-title">Data<br/>Analyst</h1>
+
+  <div class="job-meta">
+    <div class="meta-pill">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Bengaluru, India · Hybrid
+    </div>
+    <div class="meta-pill">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+      Full-time
+    </div>
+    <div class="meta-pill">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+      1–3 years exp.
+    </div>
+  </div>
+
+  <div class="salary-badge">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+    ₹7 LPA – ₹14 LPA
+  </div>
+</div>
+
+<div class="page-body">
+
+  <div class="content-col">
+
+    <div class="section reveal">
+      <div class="section-label">01 · About the role</div>
+      <h2>Turn phone data into decisions that matter</h2>
+      <p>PhoneGuru sits on one of the richest datasets in the Indian mobile industry — millions of user sessions, thousands of phone specs, real-time price signals from dozens of retailers, and AI chatbot interactions that tell us exactly what buyers are confused about. As a Data Analyst, your job is to make sense of all of it.</p>
+      <p>You'll work across product, engineering, and content teams to answer the questions that drive our roadmap: Which phones are users comparing most? Where are they dropping off in the buying journey? Which spec matters most to a buyer in the ₹15,000–₹20,000 segment? You'll translate raw data into clear insights and dashboards that the whole company acts on — no analysis left gathering dust.</p>
+    </div>
+
+    <div class="section reveal">
+      <div class="section-label">02 · What you'll do</div>
+      <h2>Responsibilities</h2>
+      <ul class="styled-list">
+        <li>Analyse user behaviour across PhoneGuru's platform — page views, comparison flows, search queries, chatbot interactions, and conversion funnels — to surface actionable product insights.</li>
+        <li>Build and maintain dashboards in Metabase or Looker that give product, engineering, and content teams a live view of key metrics.</li>
+        <li>Track and report on pricing trends across hundreds of phone models and dozens of Indian retailers — identifying anomalies, seasonal patterns, and competitive shifts.</li>
+        <li>Define, instrument, and monitor KPIs for new feature launches — working with engineers to ensure the right events are being tracked before anything goes live.</li>
+        <li>Run A/B test analyses and help product managers interpret results with statistical rigour rather than gut feel.</li>
+        <li>Produce regular data-driven reports on category trends (foldables, budget 5G, flagship cameras) that inform our editorial and SEO content strategy.</li>
+        <li>Maintain data quality — identifying gaps, inconsistencies, and errors in our spec database and flagging them to the data engineering team.</li>
+      </ul>
+    </div>
+
+    <div class="section reveal">
+      <div class="section-label">03 · Requirements</div>
+      <h2>What we're looking for</h2>
+      <ul class="styled-list">
+        <li>Minimum 1 year of professional experience in a data analyst or business analyst role — internships with real analytical deliverables are considered.</li>
+        <li>Strong SQL skills — you can write complex queries with joins, window functions, CTEs, and aggregations without reaching for Stack Overflow.</li>
+        <li>Proficiency in Python or R for data cleaning, exploratory analysis, and scripting repeatable workflows.</li>
+        <li>Experience building dashboards and visualisations in tools like Metabase, Looker, Tableau, or Power BI.</li>
+        <li>Solid grasp of statistics — distributions, hypothesis testing, confidence intervals, and the difference between correlation and causation.</li>
+        <li>Comfortable communicating findings to non-technical audiences — you can turn a complex analysis into a clear one-page summary.</li>
+        <li>Attention to detail and a healthy skepticism of data — you always ask "does this number make sense?" before presenting it.</li>
+      </ul>
+    </div>
+
+    <div class="section reveal">
+      <div class="section-label">04 · Nice to have</div>
+      <h2>Bonus points</h2>
+      <ul class="styled-list">
+        <li>Prior experience in a consumer tech, e-commerce, or media company where you worked with product and content teams simultaneously.</li>
+        <li>Familiarity with web analytics platforms — Google Analytics 4, Mixpanel, or Amplitude.</li>
+        <li>Experience with data pipeline tools like dbt, Airflow, or similar, and comfort working with data warehouse environments (BigQuery, Redshift, Snowflake).</li>
+        <li>Knowledge of SEO analytics — keyword trends, organic traffic patterns, and search console data.</li>
+        <li>Exposure to machine learning concepts — you don't need to build models, but understanding what's possible helps you ask better questions.</li>
+        <li>A personal data project, Kaggle competition, or public notebook that shows how you think through a problem.</li>
+      </ul>
+    </div>
+
+    <div class="section reveal">
+      <div class="section-label">05 · Tools & skills</div>
+      <h2>What you'll work with</h2>
+      <div class="tags-wrap" style="margin-bottom: 12px;">
+        <span class="tag">SQL</span>
+        <span class="tag">Python</span>
+        <span class="tag">Metabase / Looker</span>
+        <span class="tag">Google Analytics 4</span>
+        <span class="tag">Mixpanel</span>
+        <span class="tag">A/B Testing</span>
+        <span class="tag">Data Visualisation</span>
+      </div>
+      <hr class="divider" />
+      <div class="tags-wrap">
+        <span class="tag purple">BigQuery / Redshift</span>
+        <span class="tag purple">dbt</span>
+        <span class="tag purple">Excel / Google Sheets</span>
+        <span class="tag purple">Pandas / NumPy</span>
+        <span class="tag purple">Jupyter Notebooks</span>
+        <span class="tag purple">Amplitude</span>
+        <span class="tag purple">Notion</span>
+      </div>
+    </div>
+
+    <div class="section reveal">
+      <div class="section-label">06 · Life at PhoneGuru</div>
+      <h2>What we offer</h2>
+      <ul class="styled-list">
+        <li>Salary between ₹7 LPA and ₹14 LPA based on experience and skills, reviewed every 12 months with performance-linked increments.</li>
+        <li>Hybrid work schedule — 3 days in our Bengaluru office, 2 days remote.</li>
+        <li>₹25,000 annual learning budget for data courses, certifications (Google Data Analytics, dbt, AWS), and conferences.</li>
+        <li>MacBook or Windows laptop of your choice, fully set up and ready on day one.</li>
+        <li>Comprehensive health insurance covering you and your immediate family.</li>
+        <li>Access to one of the richest consumer tech datasets in India — a genuinely interesting playground for a curious analyst.</li>
+        <li>Free access to every phone we review — great for hands-on research, and yes, sometimes they're yours to keep.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <aside class="apply-sidebar">
+    <div class="apply-card reveal">
+      <div class="apply-card-header">
+        <h3>Apply for this role</h3>
+        <p>Data Analyst · Bengaluru · Full-time</p>
+      </div>
+
+      <form class="apply-form" id="applyForm" novalidate>
+
+        <div class="field-group">
+          <label for="fullName">Full name</label>
+          <input type="text" id="fullName" placeholder="Rahul Nair" autocomplete="name" required />
+        </div>
+
+        <div class="field-group">
+          <label for="phone">Primary phone number</label>
+          <input type="tel" id="phone" placeholder="+91 98765 43210" autocomplete="tel" required />
+        </div>
+
+        <div class="field-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" placeholder="rahul@example.com" autocomplete="email" required />
+        </div>
+
+        <div class="field-group">
+          <label for="portfolio">Portfolio / project link <span style="color: rgba(136,136,170,0.5); font-weight:400; text-transform:none; letter-spacing:0;">(Kaggle / GitHub / notebook)</span></label>
+          <input type="url" id="portfolio" placeholder="https://kaggle.com/yourprofile" />
+        </div>
+
+        <div class="field-group">
+          <label>Resume / CV</label>
+          <div class="upload-zone" id="uploadZone">
+            <input type="file" id="resumeFile" accept=".pdf,.doc,.docx" />
+            <div class="upload-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            </div>
+            <div class="upload-text"><strong>Click to upload</strong> or drag & drop</div>
+            <div class="upload-formats">PDF, DOC, DOCX · Max 5 MB</div>
+          </div>
+          <div class="file-selected" id="fileSelected">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span id="fileName"></span>
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label for="message">Anything you'd like us to know? <span style="color: rgba(136,136,170,0.5); font-weight:400; text-transform:none; letter-spacing:0;">(optional)</span></label>
+          <textarea id="message" rows="3" placeholder="Tell us about an analysis you're proud of, or a data problem you found particularly interesting…"></textarea>
+        </div>
+
+        <div id="formError" style="display:none; font-size: 0.8rem; color: #ff6b6b; background: rgba(255,107,107,0.08); border: 1px solid rgba(255,107,107,0.2); border-radius: var(--radius-sm); padding: 9px 12px;"></div>
+
+        <button type="submit" class="btn-apply" id="submitBtn">
+          Submit Application →
+        </button>
+
+      </form>
+
+      <div class="apply-success" id="applySuccess">
+        <div class="success-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <h4>Application submitted!</h4>
+        <p>Thanks for applying. Our team will review your profile and reach out within 5–7 business days.</p>
+      </div>
+
+      <div class="deadline-bar">
+        <span>Applications close</span>
+        <span>June 20, 2025</span>
+      </div>
+    </div>
+  </aside>
+
+</div>
+
+<script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  const fileInput = document.getElementById('resumeFile');
+  const fileSelected = document.getElementById('fileSelected');
+  const fileName = document.getElementById('fileName');
+  const uploadZone = document.getElementById('uploadZone');
+
+  fileInput.addEventListener('change', () => {
+    const file = fileInput.files[0];
+    if (file) { fileName.textContent = file.name; fileSelected.classList.add('visible'); }
+  });
+
+  uploadZone.addEventListener('dragover', e => { e.preventDefault(); uploadZone.classList.add('drag-over'); });
+  uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('drag-over'));
+  uploadZone.addEventListener('drop', e => {
+    e.preventDefault(); uploadZone.classList.remove('drag-over');
+    const file = e.dataTransfer.files[0];
+    if (file) { fileInput.files = e.dataTransfer.files; fileName.textContent = file.name; fileSelected.classList.add('visible'); }
+  });
+
+  const form = document.getElementById('applyForm');
+  const successBox = document.getElementById('applySuccess');
+  const errorBox = document.getElementById('formError');
+  const submitBtn = document.getElementById('submitBtn');
+
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    errorBox.style.display = 'none';
+    const name = document.getElementById('fullName').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const resume = fileInput.files[0];
+
+    if (!name) { showError('Please enter your full name.'); return; }
+    if (!phone || !/^[+\d\s\-().]{7,20}$/.test(phone)) { showError('Please enter a valid phone number.'); return; }
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { showError('Please enter a valid email address.'); return; }
+    if (!resume) { showError('Please attach your resume before submitting.'); return; }
+    if (resume.size > 5 * 1024 * 1024) { showError('File size must be under 5 MB.'); return; }
+
+    submitBtn.textContent = 'Submitting…';
+    submitBtn.disabled = true;
+    await new Promise(r => setTimeout(r, 1200));
+    form.classList.add('hidden');
+    successBox.classList.add('visible');
+  });
+
+  function showError(msg) {
+    errorBox.textContent = msg;
+    errorBox.style.display = 'block';
+    errorBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+</script>
+</body>
+</html>

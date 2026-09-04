@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact | PhoneGuru</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'DM Sans', sans-serif;
+background: radial-gradient(circle at top, #05070f, #000000);
+color:#e5e7eb;
+}
+
+/* NAVBAR */
+.navbar{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(10,10,15,0.7);
+backdrop-filter:blur(12px);
+padding:18px 0;
+z-index:1000;
+border-bottom:1px solid rgba(255,255,255,0.05);
+}
+
+.nav-container{
+padding:0 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:#fff;
+font-size:22px;
+font-family:'Syne', sans-serif;
+font-weight:700;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:25px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#cbd5e1;
+padding:8px 14px;
+border-radius:8px;
+transition:0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active{
+background:rgba(255,255,255,0.08);
+color:#fff;
+}
+
+/* HERO */
+.hero{
+margin-top:110px;
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h1{
+font-family:'Syne', sans-serif;
+font-size:56px;
+font-weight:800;
+background:linear-gradient(90deg,#22d3ee,#818cf8);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero p{
+font-size:18px;
+color:#94a3b8;
+margin-top:10px;
+}
+
+/* CONTAINER */
+.container{
+width:90%;
+max-width:1200px;
+margin:50px auto;
+}
+
+/* GRID */
+.branches{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+}
+
+/* CARD */
+.card{
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.08);
+padding:25px;
+border-radius:16px;
+transition:0.35s;
+backdrop-filter:blur(12px);
+}
+
+.card:hover{
+transform:translateY(-6px);
+border-color:#22d3ee;
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+
+.city{
+font-family:'Syne', sans-serif;
+font-size:22px;
+color:#22d3ee;
+margin-bottom:10px;
+}
+
+.info{
+font-size:14px;
+color:#cbd5e1;
+line-height:1.6;
+}
+
+/* FOOTER */
+footer{
+margin-top:60px;
+text-align:center;
+padding:20px;
+color:#94a3b8;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+<div class="nav-container">
+<div class="logo">PhoneGuru</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="compare.html">Compare</a></li>
+<li><a href="career.html">Careers</a></li>
+<li><a href="contact.html" class="active">Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+<h1>Contact Us</h1>
+<p>Reach out to any of our branches across India</p>
+</div>
+
+<!-- BRANCHES -->
+<div class="container">
+<div class="branches">
+
+<!-- Bangalore -->
+<div class="card">
+<div class="city">Bangalore</div>
+<div class="info">
+📍 42 Tech Park Road, Whitefield, Bangalore, Karnataka 560066<br><br>
+📧 bangalore@phoneguru.com<br>
+📞 +91 98765 12345<br>
+📞 +91 91234 56789<br>
+📠 +91 80 2345 6789
+</div>
+</div>
+
+<!-- Kochi -->
+<div class="card">
+<div class="city">Kochi</div>
+<div class="info">
+📍 18 Marine Drive, Ernakulam, Kochi, Kerala 682031<br><br>
+📧 kochi@phoneguru.com<br>
+📞 +91 99887 66554<br>
+📞 +91 90909 11223<br>
+📠 +91 484 2233 4455
+</div>
+</div>
+
+<!-- Pune -->
+<div class="card">
+<div class="city">Pune</div>
+<div class="info">
+📍 77 IT Hub Lane, Hinjewadi, Pune, Maharashtra 411057<br><br>
+📧 pune@phoneguru.com<br>
+📞 +91 97654 33221<br>
+📞 +91 98888 77665<br>
+📠 +91 20 4455 6677
+</div>
+</div>
+
+<!-- Mumbai -->
+<div class="card">
+<div class="city">Mumbai</div>
+<div class="info">
+📍 101 Business Plaza, Bandra West, Mumbai, Maharashtra 400050<br><br>
+📧 mumbai@phoneguru.com<br>
+📞 +91 98700 11223<br>
+📞 +91 98111 22334<br>
+📠 +91 22 3344 5566
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 PhoneGuru</p>
+</footer>
+
+</body>
+</html>
